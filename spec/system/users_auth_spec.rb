@@ -131,6 +131,7 @@ describe "Users" do
         Setting["feature.twitter_login"] = false
         Setting["feature.google_login"] = false
         Setting["feature.wordpress_login"] = false
+        Setting["feature.saml"] = false
       end
 
       scenario "No button will appear if all features are disabled" do
@@ -140,6 +141,7 @@ describe "Users" do
         expect(page).not_to have_link "Facebook"
         expect(page).not_to have_link "Google"
         expect(page).not_to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
 
         visit new_user_session_path
 
@@ -147,6 +149,7 @@ describe "Users" do
         expect(page).not_to have_link "Facebook"
         expect(page).not_to have_link "Google"
         expect(page).not_to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
       end
 
       scenario "Twitter login button will appear if feature is enabled" do
@@ -158,6 +161,7 @@ describe "Users" do
         expect(page).not_to have_link "Facebook"
         expect(page).not_to have_link "Google"
         expect(page).not_to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
 
         visit new_user_session_path
 
@@ -165,6 +169,7 @@ describe "Users" do
         expect(page).not_to have_link "Facebook"
         expect(page).not_to have_link "Google"
         expect(page).not_to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
       end
 
       scenario "Facebook login button will appear if feature is enabled" do
@@ -176,6 +181,7 @@ describe "Users" do
         expect(page).to have_link "Facebook"
         expect(page).not_to have_link "Google"
         expect(page).not_to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
 
         visit new_user_session_path
 
@@ -183,6 +189,7 @@ describe "Users" do
         expect(page).to have_link "Facebook"
         expect(page).not_to have_link "Google"
         expect(page).not_to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
       end
 
       scenario "Google login button will appear if feature is enabled" do
@@ -194,6 +201,7 @@ describe "Users" do
         expect(page).not_to have_link "Facebook"
         expect(page).to have_link "Google"
         expect(page).not_to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
 
         visit new_user_session_path
 
@@ -201,6 +209,7 @@ describe "Users" do
         expect(page).not_to have_link "Facebook"
         expect(page).to have_link "Google"
         expect(page).not_to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
       end
 
       scenario "Wordpress login button will appear if feature is enabled" do
@@ -212,6 +221,7 @@ describe "Users" do
         expect(page).not_to have_link "Facebook"
         expect(page).not_to have_link "Google"
         expect(page).to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
 
         visit new_user_session_path
 
@@ -219,6 +229,27 @@ describe "Users" do
         expect(page).not_to have_link "Facebook"
         expect(page).not_to have_link "Google"
         expect(page).to have_link "Wordpress"
+        expect(page).not_to have_link "Saml"
+      end
+
+      scenario "Saml login button will appear if feature is enabled" do
+        Setting["feature.saml_login"] = true
+
+        visit new_user_registration_path
+
+        expect(page).not_to have_link "Twitter"
+        expect(page).not_to have_link "Facebook"
+        expect(page).not_to have_link "Google"
+        expect(page).not_to have_link "Wordpress"
+        expect(page).to have_link "Saml"
+
+        visit new_user_session_path
+
+        expect(page).not_to have_link "Twitter"
+        expect(page).not_to have_link "Facebook"
+        expect(page).not_to have_link "Google"
+        expect(page).not_to have_link "Wordpress"
+        expect(page).to have_link "Saml"
       end
     end
 
