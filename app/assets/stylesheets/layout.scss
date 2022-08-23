@@ -1503,6 +1503,7 @@ table {
 .button.button-twitter,
 .button.button-facebook,
 .button.button-google,
+.button.button-saml,
 .button.button-wordpress {
   color: $text;
   font-weight: bold;
@@ -1589,6 +1590,16 @@ table {
 
   &::before {
     color: #2f2f33;
+  }
+}
+
+.button.button-saml {
+  background: #dcdde3;
+  border-left: 3px solid #2f2f33;
+
+  &::before {
+    color: #2f2f33;
+    content: "8";
   }
 }
 
