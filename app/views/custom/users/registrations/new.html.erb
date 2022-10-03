@@ -14,6 +14,10 @@
 
 <%= render "devise/omniauth_form", action: "sign_up" %>
 
+<h2>Consul Officer Registration</h2>
+
+<p>This registration page is for consul officers only. Users must use myaccount to login using the link at the top of this page.</p>
+
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "shared/errors", resource: resource %>
 
