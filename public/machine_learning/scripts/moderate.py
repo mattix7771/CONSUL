@@ -37,11 +37,11 @@ configfile="moderate.ini"
 path_dir =  "/home/deploy/consul/current/public/machine_learning/scripts/"
 
 path_file = os.sep.join([path_dir, configfile])
-print("start moderation"
+print("start moderation")
 print("path is ",path_file)
 
-openai.api_key = "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"
- #   openai.api_key = os.getenv("OPENAI_API_KEY")
+#openai.api_key = ""
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 def config(filename=path_file, section='postgresql'):
@@ -172,7 +172,7 @@ def get_records():
     curr = conn.cursor()
   
 # EXECUTE THE SQL QUERY: get all comments newer than now - 12 hours
-    query = "select comments.id,body,comments.hidden_at,flags_count,ancestry,commentable_type  from comments left join comment_translations on comments.id=comment_translations.id>
+    query = "select comments.id,body,comments.hidden_at,flags_count,ancestry,commentable_type  from comments left join comment_translations on comments.id=comment_translations.id where comments.created_at > now() - interval '12 hours';"
     #will want to refine this query not to select records previouslyrestored by moderator
     curr.execute(query)
     
