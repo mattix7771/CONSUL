@@ -14,11 +14,11 @@
 #                   update notifications for moderator
 #                   send email to user/moderator
 #
-#                   move openai key to config file
 #                   move moderation to function
 #                   provide option to use different moderation engines
 #                   log moderation output to log file
-#               
+# Done              
+#                   move openai key to config file
 #                   automate running of script
 #                   allow manual running of script from machine learning scripts folder
 
@@ -28,21 +28,18 @@ import os
 import openai
 from configparser import ConfigParser
 
+
 from datetime import datetime
 
 now = datetime.now()
-
+thresh = 0.15
 configfile="moderate.ini"
 
-path_dir =  "/home/deploy/consul/current/public/machine_learning/scripts/"
+path_dir =  "/home/deploy/consul/current/public/machine_learning/scripts"
 
 path_file = os.sep.join([path_dir, configfile])
-print("start moderation")
+print(now,"starting moderation")
 print("path is ",path_file)
-
-#openai.api_key = ""
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
 
 def config(filename=path_file, section='postgresql'):
     # create a parser
@@ -61,9 +58,6 @@ def config(filename=path_file, section='postgresql'):
 
     return db
 
-
-
-
 def connect():
     """ Connect to the PostgreSQL database server """
     conn = None
@@ -81,13 +75,12 @@ def connect():
 
         # close the communication with the PostgreSQL
         cur.close()
-    except (Exception, , psycopg2.DatabaseError) as error:
+    except (Exception, psycopg2.DatabaseError) as error:
         print(error)
     finally:
         if conn is not None:
             conn.close()
             print('Database connection closed.')
-
 
 
 def update_flag(id, flags):
@@ -154,13 +147,8 @@ def hide_comment(id, ):
 
     return updated_rows
 
-
-
-
 def get_records():
 
-    # This program uses fetchall()
-    # to query all the records from a table
      # read connection parameters
     params = config()
   
@@ -168,7 +156,6 @@ def get_records():
     conn = psycopg2.connect(**params)
   
 # CREATE A CURSOR USING THE CONNECTION OBJECT
-
     curr = conn.cursor()
   
 # EXECUTE THE SQL QUERY: get all comments newer than now - 12 hours
@@ -185,7 +172,7 @@ def get_records():
         commentid=row[0]
         body=row[1]
         print("comment id",commentid,"body ",body)
-        rows=rows+1  
+        rows=rows+1
 
 # moderate
 
@@ -196,27 +183,33 @@ def get_records():
       
         status = response["results"][0]["flagged"]
         print(status)
-        
+        scores = response["results"][0]["category_scores"]
+        print(scores)
+        flags=0
+        for index, (cat,score) in enumerate(scores.items()):
+            if score > thresh:
+                flags = flags + 2 
+                print("category",cat," score",score)
+                   
         if status :
 #flagged status from moderation is true
             print(response["results"])
-            flags = 10
-            print("here and adding ", flags, " to ",commentid)
-            update_flag(commentid, flags)
             hide_comment(commentid )
 # need to add something here to notify moderator
 # also need to make decisions about flag vs hide
         else:
         #loop through values andif above threshhold - flag comment
-            print("no match in if statement")
+            print("no comments hidden") 
+            
+# if flag score is more than 0 update flag field on comment id                
+        if flags > 0 :
+            print("adding flag score ", flags, " to comment ",commentid)
+            update_flag(commentid, flags)
 
 # CLOSE THE CONNECTION
     conn.close()
 
     return rows
-
-
-
 
 
 if __name__ == '__main__':
@@ -226,5 +219,5 @@ if __name__ == '__main__':
     # Update flag
     flags =  0
     
-      
-# print(output)
+    print(now,"stopping moderation")  
+    # print(output)
