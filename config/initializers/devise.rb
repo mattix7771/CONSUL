@@ -280,7 +280,7 @@ Devise.setup do |config|
                     digest_method: XMLSecurity::Document::SHA1,
                     signature_method: XMLSecurity::Document::RSA_SHA1 },
                   attribute_statements: { email: ['mail','Email Address','urn:oid:0.9.2342.19200300.100.1.22'],	
-                  nickname: ['Username','urn:oid:0.9.2342.19200300.100.1.1']},
+                    nickname: ['Username','urn:oid:0.9.2342.19200300.100.1.1']},
                   uid_attribute: 'urn:oid:0.9.2342.19200300.100.1.28'
 
 
