@@ -1,172 +1,28 @@
 <% if header.present? %>
 
-<div class="hero-wrapper">
-
-<!-- style for hero using css - not used at the moment-->
-<style>      
-.jimbo{        
-background-image: url("http://localhost/pexel-hero.jpg") ;
-        background-size: cover;
-        background-position: center 65%;
-width:100%;
- height: auto;
-position: relative;
-      }  
-</style>      
-
-
-<!-- basic - get file names and loop through - no validation etc 
- 
--->
- <% pics = Dir.entries("public/heros/").select{|x| x != '.' && x != '..' } %>
-
-
- <%# pics = Dir.glob("public/heros/*.jpg").select{|x| x!= '.'} %>
-
-
-<!-- if header present display hero image -->
 <% if header.image.present? %>
-
-<!--   <div class="jimbo">
-</div> 
-
--->
-
-   <!-- html for orbit slider carousel - uses image from header page for first page-->
-
-   <div class="orbit" role="region" aria-label="Slideshow Pictures" data-orbit data-use-m-u-i="false">
-   <div class="orbit-wrapper">
-   <div class="orbit-controls">
-      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-    </div>
-    <ul class="orbit-container">
-      <li class="is-active orbit-slide">
-        <figure class="orbit-figure">
-           <%= image_tag(header.image.variant(:large),
-                        class: "orbit-image",
-                        alt: header.image.title) %>
-
-          
-        </figure>
-      </li>
-
-<!-- need to add if exists logic here -->
-
-    <% pics.each do |picture| %>
-
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src=" <%= "heros/"+picture %> " >
-     <!--    <%#= image_tag("heros/"+picture,
-                        class: "orbit-image",
-                        alt: picture) %>
-
-          <figcaption class="orbit-caption"><%= picture %></figcaption>
--->        </figure>
-      </li>
-   <% end %>
-
-    </ul>
-  </div>
-
-<!-- add in hero text -->
-
-    <div class="hero-content">
-       <div class="row">
-          <div class="column position-relative">
-            <div class="hero-text">
-              <span><%= header.label %></span>
-              <h1><%= header.title %></h1>
-              <p><%= header.description %></p>
-             </div>
-
-                <% if header.link_text.present? && header.link_url.present? %>
-          <!--      <div class="small-12 medium-6 large-4 <%= "small-centered" unless header.image.present? %>"> -->
-                    <%= link_to header.link_text, header.link_url, class: "hero-cta" %>
-               <% end %>
-         </div>
-
-      </div>
-
-   </div>  <!--end hero content-->
-
-<!--  <nav class="orbit-bullets">
-    <button class="is-active" data-slide="0">
-      <span class="show-for-sr">First slide details.</span>
-      <span class="show-for-sr" data-slide-active-label>Current Slide</span>
-    </button>
-    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-    <button data-slide="4"><span class="show-for-sr">Third slide details.</span></button>
-    <button data-slide="5"><span class="show-for-sr">Fourth slide details.</span></button>
-
-  </nav>
-
--->
-</div>
-
-     <% else %>
-
-<!-- add if exists condition here -->
-
-<% if File.exist?("public/hero.mp4") %>
-   <video autoplay="autoplay" loop="loop" muted="muted" controls="controls" controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture="true" src="hero.mp4"></video>
-<!-- add in hero text -->
-
-    <div class="hero-content">
-       <div class="row">
-          <div class="column position-relative">
-            <div class="hero-text">
-              <span><%= header.label %></span>
-              <h1><%= header.title %></h1>
-              <p><%= header.description %></p>
-             </div>
-
-                <% if header.link_text.present? && header.link_url.present? %>
-          <!--      <div class="small-12 medium-6 large-4 <%= "small-centered" unless header.image.present? %>"> -->
-                    <%= link_to header.link_text, header.link_url, class: "hero-cta" %>
-               <% end %>
-         </div>
-
-      </div>
-
-   </div>  <!--end hero content-->
-
-<%else %>
-
-
-    <div class="header-card jumbo highlight">
+        <div class="budget-header with-background-image"
+	style="background-image: url(<%= polymorphic_path(header.image.variant(:large)) %>);">
+<% else %>
+  <div class="budget-header">
+<!--  <div class="header-card jumbo highlight">  -->
+<% end %>
     <div class="row">
-      <div class="small-12 medium-6 column <%= "medium-9 small-centered text-center" unless header.image.present? %>">
-        <span><%= header.label %></span>
+      <div class="small-12 medium-6 column text-center>
+        <span class="budget-title"><%= header.label %></span>
         <h1><%= header.title %></h1>
 
         <p class="lead"><%= header.description %></p>
 
         <% if header.link_text.present? && header.link_url.present? %>
-          <div class="small-12 medium-6 large-4 <%= "small-centered" unless header.image.present? %>">
-            <%= link_to header.link_text, header.link_url, class: "button expanded large" %>
-          </div>
+       
+            <%= link_to header.link_text, header.link_url, class: "main-link" %>
+        
         <% end %>
       </div>
 
-      <% if header.image.present? %>
-        <div class="small-12 medium-6 column">
-          <%= image_tag(header.image.variant(:large),
-                        class: "margin",
-                        alt: header.image.title) %>
-        </div>
-      <% end %>
-     </div>
+      
    </div>
-   <div class="background-header"></div>
-
-  <% end %>
-
-<% end %>
-
-</div><!--end hero -->
+</div>
 
 <% end %>
