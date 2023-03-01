@@ -285,7 +285,7 @@ Devise.setup do |config|
 
 
   #Add logger to get full response from the callback phase
-  Rails.logger.level = 1
+  Rails.logger.level = 0
   OmniAuth.config.logger = Rails.logger
 
   # ==> Warden configuration
