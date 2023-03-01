@@ -24,6 +24,10 @@
       <div class="js-suggest" data-locale="<%= translations_form.locale %>"></div>
 
       <div>
+        <%= f.text_field :price%>
+      </div>
+
+      <div>
         <%= translations_form.text_area :description,
               maxlength: Budget::Investment.description_max_length,
               class: "html-area" %>
