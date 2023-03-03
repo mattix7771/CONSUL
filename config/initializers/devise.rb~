@@ -303,10 +303,10 @@ Devise.setup do |config|
 
 
   #Add logger to get full response from the callback phase
-#  Rails.logger.level = 0
- # OmniAuth.config.logger = Rails.logger
-  #                client_options: { site: Rails.application.secrets.wordpress_oauth2_site },
-   #               setup: OmniauthTenantSetup.wordpress_oauth2
+  Rails.logger.level = 0
+  OmniAuth.config.logger = Rails.logger
+                  client_options: { site: Rails.application.secrets.wordpress_oauth2_site },
+                  setup: OmniauthTenantSetup.wordpress_oauth2
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
