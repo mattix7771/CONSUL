@@ -4,7 +4,6 @@
 # For further information see the following documentation
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
 
-<<<<<<< HEAD
 #production changes here
 #Rails.application.config.content_security_policy do |policy|
  #   policy.default_src :none
