@@ -15,6 +15,7 @@
 @import "foundation_and_overrides";
 @import "fonts";
 @import "icons";
+@import "functions/*";
 @import "mixins/*";
 
 @import "admin";
@@ -22,6 +23,7 @@
 @import "annotator_overrides";
 @import "autocomplete_overrides";
 @import "banner";
+@import "comments_count";
 @import "datepicker_overrides";
 @import "layout";
 @import "participation";
@@ -39,6 +41,7 @@
 @import "stats";
 @import "sticky_overrides";
 @import "tags";
+@import "account/**/*";
 @import "admin/**/*";
 @import "budgets/**/*";
 @import "debates/**/*";

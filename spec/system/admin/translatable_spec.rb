@@ -9,9 +9,9 @@ describe "Admin edit translatable records", :admin do
   let(:fields) { translatable.translated_attribute_names }
 
   let(:attributes) do
-    fields.product(%i[en es]).map do |field, locale|
+    fields.product(%i[en es]).to_h do |field, locale|
       [:"#{field}_#{locale}", text_for(field, locale)]
-    end.to_h
+    end
   end
 
   context "Add a translation" do
@@ -215,8 +215,8 @@ describe "Admin edit translatable records", :admin do
     end
 
     context "CKEditor fields" do
-      let(:translatable) { create(:poll_question_answer) }
-      let(:path) { edit_admin_answer_path(translatable) }
+      let(:translatable) { create(:poll_question_answer, poll: create(:poll, :future)) }
+      let(:path) { edit_admin_question_answer_path(translatable.question, translatable) }
 
       scenario "Changes the existing translation" do
         visit path
@@ -242,7 +242,7 @@ describe "Admin edit translatable records", :admin do
     end
 
     context "Change value of a translated field to blank" do
-      let(:translatable) { create(:poll) }
+      let(:translatable) { create(:poll, :future) }
       let(:path) { edit_admin_poll_path(translatable) }
 
       scenario "Updates the field to a blank value" do
@@ -383,7 +383,7 @@ describe "Admin edit translatable records", :admin do
   end
 
   context "Remove a translation with invalid data" do
-    let(:translatable) { create(:poll_question) }
+    let(:translatable) { create(:poll_question, poll: create(:poll, :future)) }
     let(:path) { edit_admin_question_path(translatable) }
 
     scenario "Doesn't remove the translation" do

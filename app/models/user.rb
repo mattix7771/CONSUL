@@ -139,6 +139,8 @@ class User < ApplicationRecord
     #lacode comes from list of councils registered with IS
     oauth_lacode_ref          = "9079"
     oauth_lacode_confirmed    = oauth_lacode == oauth_lacode_ref
+    oauth_verified        = auth.info.verified || auth.info.verified_email || auth.info.email_verified
+    oauth_email_confirmed = oauth_email.present? && oauth_verified
     oauth_user            = User.find_by(email: oauth_email) if oauth_email_confirmed
 
     oauth_user || User.new(
@@ -348,7 +350,7 @@ class User < ApplicationRecord
   end
 
   def locale
-    self[:locale] ||= I18n.default_locale.to_s
+    self[:locale] || I18n.default_locale.to_s
   end
 
   def confirmation_required?

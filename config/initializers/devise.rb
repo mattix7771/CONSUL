@@ -14,10 +14,14 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = proc { "'#{Setting["mailer_from_name"]}' <#{Setting["mailer_from_address"]}>" }
+  # We're not setting it here because it's set by the ApplicationMailer class
+  # config.mailer_sender = "please-change-me-at-config-initializers-devise@example.com"
 
   # Configure the class responsible to send e-mails.
   config.mailer = "DeviseMailer"
+
+  # Configure the parent class responsible to send e-mails.
+  config.parent_mailer = "ApplicationMailer"
 
   # ==> ORM configuration
   # Load and configure the ORM. Supports :active_record (default) and
@@ -241,6 +245,7 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
+<<<<<<< HEAD
 
   idp_metadata_parser = OneLogin::RubySaml::IdpMetadataParser.new
 
@@ -257,10 +262,27 @@ Devise.setup do |config|
   config.omniauth :twitter, Rails.application.secrets.twitter_key, Rails.application.secrets.twitter_secret
   config.omniauth :facebook, Rails.application.secrets.facebook_key, Rails.application.secrets.facebook_secret, scope: "email", info_fields: "email,name,verified"
   config.omniauth :google_oauth2, Rails.application.secrets.google_oauth2_key, Rails.application.secrets.google_oauth2_secret
+=======
+  config.omniauth :twitter,
+                  Rails.application.secrets.twitter_key,
+                  Rails.application.secrets.twitter_secret,
+                  setup: OmniauthTenantSetup.twitter
+  config.omniauth :facebook,
+                  Rails.application.secrets.facebook_key,
+                  Rails.application.secrets.facebook_secret,
+                  scope: "email",
+                  info_fields: "email,name,verified",
+                  setup: OmniauthTenantSetup.facebook
+  config.omniauth :google_oauth2,
+                  Rails.application.secrets.google_oauth2_key,
+                  Rails.application.secrets.google_oauth2_secret,
+                  setup: OmniauthTenantSetup.google_oauth2
+>>>>>>> coslajohn/master
   config.omniauth :wordpress_oauth2,
                   Rails.application.secrets.wordpress_oauth2_key,
                   Rails.application.secrets.wordpress_oauth2_secret,
                   strategy_class: OmniAuth::Strategies::Wordpress,
+<<<<<<< HEAD
                   client_options: { site: Rails.application.secrets.wordpress_oauth2_site }
   config.omniauth :saml,
                   idp_cert_fingerprint:  "44:02:BB:4C:82:6E:0D:16:AC:6C:96:C6:7B:47:F5:45:76:11:39:C4",
@@ -287,6 +309,10 @@ Devise.setup do |config|
   #Add logger to get full response from the callback phase
   Rails.logger.level = 0
   OmniAuth.config.logger = Rails.logger
+=======
+                  client_options: { site: Rails.application.secrets.wordpress_oauth2_site },
+                  setup: OmniauthTenantSetup.wordpress_oauth2
+>>>>>>> coslajohn/master
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or

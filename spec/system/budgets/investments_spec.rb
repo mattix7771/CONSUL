@@ -62,7 +62,11 @@ describe "Budget Investments" do
     investments.each do |investment|
       within("#budget-investments") do
         expect(page).to have_content investment.title
-        expect(page).to have_css("a[href='#{budget_investment_path(budget, id: investment.id)}']", text: investment.title)
+        expect(page).to have_content investment.comments_count
+        expect(page).to have_link "No comments", href: budget_investment_path(budget, id: investment.id,
+                                                                                      anchor: "comments")
+        expect(page).to have_link investment.title, href: budget_investment_path(budget, id: investment.id)
+
         expect(page).not_to have_content(unfeasible_investment.title)
       end
     end
@@ -600,7 +604,7 @@ describe "Budget Investments" do
       fill_in_ckeditor "Description", with: "I want to live in a high tower over the clouds"
       fill_in "Location additional info", with: "City center"
       fill_in "If you are proposing in the name of a collective/organization, "\
-        "or on behalf of more people, write its name", with: "T.I.A."
+              "or on behalf of more people, write its name", with: "T.I.A."
       fill_in "Tags", with: "Towers"
       check "I agree to the Privacy Policy and the Terms and conditions of use"
 
@@ -665,7 +669,7 @@ describe "Budget Investments" do
       fill_in_ckeditor "Description", with: "I want to live in a high tower over the clouds"
       fill_in "Location additional info", with: "City center"
       fill_in "If you are proposing in the name of a collective/organization, "\
-        "or on behalf of more people, write its name", with: "T.I.A."
+              "or on behalf of more people, write its name", with: "T.I.A."
       fill_in "Tags", with: "Towers"
       check "I agree to the Privacy Policy and the Terms and conditions of use"
 
@@ -698,7 +702,7 @@ describe "Budget Investments" do
 
       click_button "Update Investment"
 
-      expect(page).to have_content "Investment project updated succesfully"
+      expect(page).to have_content "Investment project updated successfully"
       expect(page).to have_content "Park improvements"
     end
 
@@ -849,6 +853,7 @@ describe "Budget Investments" do
     expect(page).to have_content(investment.title)
     expect(page).to have_content(investment.description)
     expect(page).to have_content(investment.author.name)
+    expect(page).to have_content(investment.comments_count)
     expect(page).to have_content(investment.heading.name)
     within("#investment_code") do
       expect(page).to have_content(investment.id)
@@ -1125,7 +1130,7 @@ describe "Budget Investments" do
                   "new_budget_investment_path",
                   "",
                   "budget_investment_path",
-                  { budget_id: "budget_id" }
+                  mappable_path_arguments: { budget_id: "budget_id" }
 
   context "Destroy" do
     scenario "Admin cannot destroy budget investments", :admin do
@@ -1152,7 +1157,7 @@ describe "Budget Investments" do
         accept_confirm { click_link("Delete") }
       end
 
-      expect(page).to have_content "Investment project deleted succesfully"
+      expect(page).to have_content "Investment project deleted successfully"
 
       visit user_path(user, tab: :budget_investments)
 
@@ -1490,6 +1495,29 @@ describe "Budget Investments" do
 
         expect(page).not_to have_content "NASA base"
         expect(page).not_to have_content "€100,000"
+      end
+    end
+
+    describe "total amount" do
+      before do
+        budget.update!(voting_style: "approval")
+        heading.update!(price: 2000)
+      end
+
+      scenario "Do not show total budget amount for budget with hidden money" do
+        budget.update!(hide_money: true)
+
+        visit budget_investments_path(budget, heading_id: heading)
+
+        expect(page).not_to have_content "Total budget"
+        expect(page).not_to have_content "€2,000"
+      end
+
+      scenario "Show total budget amount for budget without hidden money" do
+        visit budget_investments_path(budget, heading_id: heading)
+
+        expect(page).to have_content "Total budget"
+        expect(page).to have_content "€2,000"
       end
     end
 
