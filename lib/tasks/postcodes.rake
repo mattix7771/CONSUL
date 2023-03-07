@@ -16,7 +16,7 @@ logger.info "Something happened"
           geozone = Geozone.find_or_create_by!(name: ward)
           code = row["postcode"].delete(' ')
              logger.info "ward is present #{code} postcode exists as #{code}"
-             Postcode.create!(postcode: code, ward:ward, geozone_id:geozone.id) unless Postcode.exists?(postcode: code)
+             Postcode.create!(postcode:code, ward:ward, geozone_id:geozone.id) unless Postcode.exists?(postcode: code)
           end
        end
   end
