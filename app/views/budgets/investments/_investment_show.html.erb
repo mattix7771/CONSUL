@@ -85,7 +85,8 @@
             <span class="icon-budget"></span>
           </div>
         <% end %>
-        <% if investment.should_show_price? %>
+        
+        <%# if investment.should_show_price? %>
           <div class="sidebar-divider"></div>
           <h2><%= t("budgets.investments.show.price") %></h2>
           <div class="supports text-center">
@@ -99,7 +100,7 @@
                             "#price_explanation", class: "small" %>
             </div>
           <% end %>
-        <% end %>
+        <%# end %>
 
         <%= render "shared/social_share",
           share_title: t("budgets.investments.show.share"),

@@ -3,6 +3,15 @@
   <%= render "shared/canonical", href: budget_investment_url %>
 <% end %>
 
+
+<div class="sidebar-divider"></div>
+          <h2><%= t("budgets.investments.show.price") %></h2>
+          <div class="supports text-center">
+            <p class="investment-project-amount">
+              <%= @investment.formatted_price %>
+            </p>
+          </div>
+
 <%= render "/budgets/investments/investment_show",
   investment: @investment,
   investment_ids: @investment_ids,
