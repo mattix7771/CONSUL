@@ -88,10 +88,10 @@
         
         <%# if investment.should_show_price? %>
           <div class="sidebar-divider"></div>
-          <h2><%= t("budgets.investments.show.price") %></h2>
+          <h2><%= t("budgets.investments.show.estimated_price") %></h2>
           <div class="supports text-center">
             <p class="investment-project-amount">
-              <%= investment.formatted_price %>
+              £<%= investment.estimated_price %>
             </p>
           </div>
           <% if investment.should_show_price_explanation? %>

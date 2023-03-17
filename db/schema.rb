@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_03_140136) do
+ActiveRecord::Schema.define(version: 2023_03_17_190029) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_trgm"
@@ -296,6 +296,7 @@ ActiveRecord::Schema.define(version: 2022_12_03_140136) do
     t.datetime "ignored_flag_at"
     t.integer "flags_count", default: 0
     t.integer "original_heading_id"
+    t.bigint "estimated_price"
     t.index ["administrator_id"], name: "index_budget_investments_on_administrator_id"
     t.index ["author_id"], name: "index_budget_investments_on_author_id"
     t.index ["budget_id"], name: "index_budget_investments_on_budget_id"
@@ -1238,6 +1239,12 @@ ActiveRecord::Schema.define(version: 2022_12_03_140136) do
     t.index ["geozone_restricted"], name: "index_polls_on_geozone_restricted"
     t.index ["related_type", "related_id"], name: "index_polls_on_related_type_and_related_id"
     t.index ["starts_at", "ends_at"], name: "index_polls_on_starts_at_and_ends_at"
+  end
+
+  create_table "postcodes", force: :cascade do |t|
+    t.string "postcode"
+    t.string "ward"
+    t.integer "geozone_id"
   end
 
   create_table "progress_bar_translations", id: :serial, force: :cascade do |t|
