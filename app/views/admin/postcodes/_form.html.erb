@@ -8,16 +8,12 @@
 
   <div class="clear">
     <div class="small-12 medium-6 large-4 column">
-      <%= f.text_field :census_code, hint: t("admin.postcodes.postcode.code_help") %>
+      <%= f.text_field :ward, hint: t("admin.postcodes.postcode.code_help") %>
     </div>
 
     <div class="small-12 medium-6 large-4 column end">
-      <%= f.text_field :external_code, hint: t("admin.postcodes.postcode.code_help") %>
+      <%= f.text_field :geozone_id, hint: t("admin.postcodes.postcode.code_help") %>
     </div>
-  </div>
-
-  <div class="small-12 large-8 column">
-    <%= f.text_field :html_map_coordinates, hint: t("admin.postcodes.postcode.coordinates_help") %>
   </div>
 
   <div class="small-12 column">

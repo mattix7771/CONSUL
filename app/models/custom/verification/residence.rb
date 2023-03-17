@@ -62,7 +62,10 @@ class Verification::Residence
   end
 
   def geozone
-#   Geozone.find_by(census_code: district_code)
+    Geozone.find_by(census_code: district_code)
+  end
+
+  def postcode
     Postcode.find_by(postcode: postal_code ).attributes.slice('geozone_id')
   end
 

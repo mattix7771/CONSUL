@@ -861,7 +861,6 @@ ActiveRecord::Schema.define(version: 2023_03_02_092141) do
     t.datetime "updated_at", null: false
     t.text "title"
     t.datetime "hidden_at"
-    t.text "description"
     t.index ["hidden_at"], name: "index_legislation_question_translations_on_hidden_at"
     t.index ["legislation_question_id"], name: "index_d34cc1e1fe6d5162210c41ce56533c5afabcdbd3"
     t.index ["locale"], name: "index_legislation_question_translations_on_locale"
@@ -1644,6 +1643,7 @@ ActiveRecord::Schema.define(version: 2023_03_02_092141) do
     t.boolean "created_from_signature", default: false
     t.integer "failed_email_digests_count", default: 0
     t.text "former_users_data_log", default: ""
+    t.integer "balloted_heading_id"
     t.boolean "public_interests", default: false
     t.boolean "recommended_debates", default: true
     t.boolean "recommended_proposals", default: true
