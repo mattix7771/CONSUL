@@ -11,7 +11,7 @@ class Postcode < ApplicationRecord
 
   def safe_to_destroy?
     Postcode.reflect_on_all_associations(:has_many).all? do |association|
-      association.klass.where(geozone: self).empty?
+      association.klass.where(name: self).empty?
     end
   end
 
