@@ -9,9 +9,7 @@
       <th><%= t("admin.postcodes.postcode.postcode") %></th>
       <th><%= t("admin.postcodes.postcode.ward") %></th>
       <th><%= t("admin.postcodes.postcode.geozone_id") %></th>
-      <th><%# t("admin.actions.actions") %></th>
-      <th>Edit</th>
-      <th>Delete</th>
+      <th><%= t("admin.actions.actions") %></th>
     </tr>
   </thead>
 
@@ -22,10 +20,8 @@
         <td><%= postcode.ward %></td>
         <td><%= postcode.geozone_id %></td>
         <td>
-          <%# render Admin::TableActionsComponent.new(postcode) %>
+          <% render Admin::TableActionsComponent.new(postcode) %>
         </td>
-        <td><%= link_to t("admin.actions.edit"), edit_admin_postcode_path(postcode) %></td>
-        <td><%= link_to t("admin.actions.delete"), admin_postcode_path(postcode), method: :delete, data: { confirm: t("admin.actions.confirm") } %></td>
       </tr>
     <% end %>
   </tbody>

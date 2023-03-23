@@ -1407,17 +1407,15 @@ en:
       delete:
         success: Geozone successfully deleted
         error: "This geozone can't be deleted since there are elements attached to it"
-      postcodes:
-       index:
+
+    postcodes:
+      index:
         title: Postcode
         create: Create postcode
       postcode:
-        name: Name
-        external_code: External code
-        census_code: Census code
-        code_help: Response code for this postcode on the census API
-        coordinates: Coordinates
-        coordinates_help: Coordinates that will generate a clickable area on an HTML image map
+        postcode: Postcode
+        ward: Ward
+        geozone: geozone
       edit:
         form:
           submit_button: Save changes
@@ -1427,8 +1425,8 @@ en:
         back: Go back
         creating: Create district
       delete:
-        success: postcode successfully deleted
-        error: This postcode can't be deleted since there are elements attached to it
+        success: Postcode successfully deleted
+        error: "This postcode can't be deleted since there are elements attached to it"
 
     signature_sheets:
       author: Author
