@@ -1407,7 +1407,6 @@ en:
       delete:
         success: Geozone successfully deleted
         error: "This geozone can't be deleted since there are elements attached to it"
-
     postcodes:
       index:
         title: Postcode
@@ -1415,7 +1414,9 @@ en:
       postcode:
         postcode: Postcode
         ward: Ward
-        geozone: geozone
+        ward_help: Postcode's correspoding ward
+        geozone_id: Geozone
+        geozone_help: Postcode's correspoding geozone
       edit:
         form:
           submit_button: Save changes
@@ -1427,7 +1428,6 @@ en:
       delete:
         success: Postcode successfully deleted
         error: "This postcode can't be deleted since there are elements attached to it"
-
     signature_sheets:
       author: Author
       created_at: Creation date

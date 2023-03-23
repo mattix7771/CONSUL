@@ -14,4 +14,7 @@ class Postcode < ApplicationRecord
       association.klass.where(geozone: self).empty?
     end
   end
+
+  def human_name
+  end
 end

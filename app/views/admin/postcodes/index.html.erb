@@ -20,7 +20,7 @@
         <td><%= postcode.ward %></td>
         <td><%= postcode.geozone_id %></td>
         <td>
-          <% render Admin::TableActionsComponent.new(postcode) %>
+          <%= render Admin::TableActionsComponent.new(postcode) %>
         </td>
       </tr>
     <% end %>

@@ -47,6 +47,6 @@ class Admin::PostcodesController < Admin::BaseController
     end
 
     def allowed_params
-      [:name, :geozone, :ward, ]
+      [:postcode, :geozone, :ward]
     end
 end
