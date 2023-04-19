@@ -31,7 +31,7 @@ namespace :postcodes do
       logger.info "ward should be #{ward}"
       logger.info "postcode should be #{postcode}"
 
-      if regex_patterns.any? { |_, pattern| postcode =~ pattern }
+      if regex_patterns.any? { |_, pattern| postcode =~ pattern }  && postcode.length <= 10
         geozone = Geozone.find_or_create_by!(name: ward)
         logger.info "ward is present #{postcode} postcode exists as #{postcode}"
         Postcode.create!(postcode:postcode, ward:ward, geozone_id:geozone.id) unless Postcode.exists?(postcode: postcode) #rejects duplicate postcodes

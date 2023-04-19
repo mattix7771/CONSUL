@@ -41,9 +41,9 @@ For terms of use, see http://www.unicode.org/copyright.html
             <postCodeRegex territoryId="AR" >([A-HJ-NP-Z])?\d{4}([A-Z]{3})?</postCodeRegex>
             <postCodeRegex territoryId="AM" >(37)?\d{4}</postCodeRegex>
             <postCodeRegex territoryId="AZ" >\d{4}</postCodeRegex>
-            <postCodeRegex territoryId="BH" >((1[0-2]|[2-9])\d{2})?</postCodeRegex>
+            <!-- <postCodeRegex territoryId="BH" >((1[0-2]|[2-9])\d{2})?</postCodeRegex> -->
             <postCodeRegex territoryId="BD" >\d{4}</postCodeRegex>
-            <postCodeRegex territoryId="BB" >(BB\d{5})?</postCodeRegex>
+            <!-- <postCodeRegex territoryId="BB" >(BB\d{5})?</postCodeRegex> -->
             <postCodeRegex territoryId="BY" >\d{6}</postCodeRegex>
             <postCodeRegex territoryId="BM" >[A-Z]{2}[ ]?[A-Z0-9]{2}</postCodeRegex>
             <postCodeRegex territoryId="BA" >\d{5}</postCodeRegex>
@@ -58,7 +58,7 @@ For terms of use, see http://www.unicode.org/copyright.html
             <postCodeRegex territoryId="CY" >\d{4}</postCodeRegex>
             <postCodeRegex territoryId="CZ" >\d{3}[ ]?\d{2}</postCodeRegex>
             <postCodeRegex territoryId="DO" >\d{5}</postCodeRegex>
-            <postCodeRegex territoryId="EC" >([A-Z]\d{4}[A-Z]|(?:[A-Z]{2})?\d{6})?</postCodeRegex>
+            <!-- <postCodeRegex territoryId="EC" >([A-Z]\d{4}[A-Z]|(?:[A-Z]{2})?\d{6})?</postCodeRegex> -->
             <postCodeRegex territoryId="EG" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="EE" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="FO" >\d{3}</postCodeRegex>
@@ -67,7 +67,7 @@ For terms of use, see http://www.unicode.org/copyright.html
             <postCodeRegex territoryId="GL" >39\d{2}</postCodeRegex>
             <postCodeRegex territoryId="GT" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="HT" >\d{4}</postCodeRegex>
-            <postCodeRegex territoryId="HN" >(?:\d{5})?</postCodeRegex>
+            <!-- <postCodeRegex territoryId="HN" >(?:\d{5})?</postCodeRegex> -->
             <postCodeRegex territoryId="HU" >\d{4}</postCodeRegex>
             <postCodeRegex territoryId="IS" >\d{3}</postCodeRegex>
             <postCodeRegex territoryId="IN" >\d{6}</postCodeRegex>
@@ -79,7 +79,7 @@ For terms of use, see http://www.unicode.org/copyright.html
             <postCodeRegex territoryId="KW" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="LA" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="LV" >\d{4}</postCodeRegex>
-            <postCodeRegex territoryId="LB" >(\d{4}([ ]?\d{4})?)?</postCodeRegex>
+            <!-- <postCodeRegex territoryId="LB" >(\d{4}([ ]?\d{4})?)?</postCodeRegex> -->
             <postCodeRegex territoryId="LI" >(948[5-9])|(949[0-7])</postCodeRegex>
             <postCodeRegex territoryId="LT" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="LU" >\d{4}</postCodeRegex>
@@ -87,15 +87,15 @@ For terms of use, see http://www.unicode.org/copyright.html
             <postCodeRegex territoryId="MY" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="MV" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="MT" >[A-Z]{3}[ ]?\d{2,4}</postCodeRegex>
-            <postCodeRegex territoryId="MU" >(\d{3}[A-Z]{2}\d{3})?</postCodeRegex>
+            <!-- <postCodeRegex territoryId="MU" >(\d{3}[A-Z]{2}\d{3})?</postCodeRegex> -->
             <postCodeRegex territoryId="MX" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="MD" >\d{4}</postCodeRegex>
             <postCodeRegex territoryId="MC" >980\d{2}</postCodeRegex>
             <postCodeRegex territoryId="MA" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="NP" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="NZ" >\d{4}</postCodeRegex>
-            <postCodeRegex territoryId="NI" >((\d{4}-)?\d{3}-\d{3}(-\d{1})?)?</postCodeRegex>
-            <postCodeRegex territoryId="NG" >(\d{6})?</postCodeRegex>
+            <!-- <postCodeRegex territoryId="NI" >((\d{4}-)?\d{3}-\d{3}(-\d{1})?)?</postCodeRegex> -->
+            <!-- <postCodeRegex territoryId="NG" >(\d{6})?</postCodeRegex> -->
             <postCodeRegex territoryId="OM" >(PC )?\d{3}</postCodeRegex>
             <postCodeRegex territoryId="PK" >\d{5}</postCodeRegex>
             <postCodeRegex territoryId="PY" >\d{4}</postCodeRegex>
