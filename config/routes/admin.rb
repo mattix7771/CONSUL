@@ -247,7 +247,11 @@ namespace :admin do
 
   resources :geozones, only: [:index, :new, :create, :edit, :update, :destroy]
 
-  resources :postcodes, only: [:index, :new, :create, :edit, :update, :destroy]
+  resources :postcodes, only: [:index, :new, :create, :edit, :update, :destroy, :ncsv] do
+    collection do
+      get :ncsv
+    end
+  end
 
   namespace :site_customization do
     resources :pages, except: [:show] do

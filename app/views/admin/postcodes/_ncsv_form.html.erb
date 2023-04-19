@@ -1,0 +1,6 @@
+<%= form_tag ncsv_admin_postcodes_path, method: :post, multipart: true, id: "csv-form" do %>
+  <%= label_tag :file_input, "Custom Upload Text", class: "custom-file-upload button float-right" do %>
+    <%= file_field_tag :file, id: "file_input", class: "hidden" %>
+  <% end %>
+  <%= link_to t("admin.postcodes.edit.form.submit_button"), request.referrer, class: "button float-right" %>
+<% end %>

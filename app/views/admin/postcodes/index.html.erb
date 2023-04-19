@@ -1,5 +1,12 @@
 <%= link_to t("admin.postcodes.index.create"),
               new_admin_postcode_path, class: "button float-right" %>
+              
+
+
+<%= link_to t("admin.postcodes.index.csv"),
+            ncsv_admin_postcodes_path(format: :html), class: "button float-right" %>
+
+
 
 <h2 class="inline-block"><%= t("admin.postcodes.index.title") %></h2>
 

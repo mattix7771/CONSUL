@@ -10,6 +10,14 @@ class Admin::PostcodesController < Admin::BaseController
   def new
   end
 
+  def ncsv
+    @postcodes = Postcode.all
+    respond_to do |format|
+      format.html { render :ncsv }
+      format.csv { render :ncsv, formats: [:csv] }
+    end
+  end
+
   def edit
   end
 
