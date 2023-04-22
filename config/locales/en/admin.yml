@@ -1411,7 +1411,8 @@ en:
       index:
         title: Postcode
         create: Create postcode
-        csv: Import CSV
+        csv_title: Postcode - Import CSV file
+        csv_button: Import CSV
       postcode:
         postcode: Postcode
         ward: Ward

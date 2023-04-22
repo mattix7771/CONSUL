@@ -2,12 +2,18 @@ require 'rexml/document'
 require 'rexml/xpath'
 
 namespace :postcodes do
-  desc "imort postcodes and wards to create geozones"
+  desc "import postcodes and wards to create geozones"
 
   logger = Logger.new('logfile.log')
   logger.info "Something happened"
 
   task import_csv: :environment do
+    #Receiving file from controller
+    file_path = ENV['FILE_PATH']
+
+    puts "path:"
+    puts file_path
+
     # Load the XML file containing the postal code regex patterns for each territory
     xml_file = File.new("lib/tasks/postcodes.xml")
     xml_doc = REXML::Document.new(xml_file)
@@ -19,7 +25,7 @@ namespace :postcodes do
       regex_patterns[territory_id] = Regexp.new(element.text)
     end
 
-    CSV.foreach(Rails.root.join("db", "wards.csv"), headers: true) do |row| 
+    CSV.foreach(file_path, headers: true) do |row| 
       next unless row["ward"].present? && row["postcode"].present? #rejects empty entries
 
       p row

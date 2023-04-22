@@ -18,6 +18,16 @@ class Admin::PostcodesController < Admin::BaseController
     end
   end
 
+  def process_csv
+    uploaded_file = params[:file]
+    file_path = uploaded_file.path
+
+    ENV['FILE_PATH'] = file_path
+    system('rake postcodes:import_csv')
+    # system("rake postcodes:import_csv[file_path=#{file_path}]")
+    redirect_to admin_postcodes_path
+  end
+
   def edit
   end
 
