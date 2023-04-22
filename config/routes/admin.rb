@@ -247,9 +247,10 @@ namespace :admin do
 
   resources :geozones, only: [:index, :new, :create, :edit, :update, :destroy]
 
-  resources :postcodes, only: [:index, :new, :create, :edit, :update, :destroy, :ncsv] do
+  resources :postcodes, only: [:index, :new, :create, :edit, :update, :destroy, :ncsv, :process_csv] do
     collection do
       get :ncsv
+      post :process_csv
     end
   end
 
