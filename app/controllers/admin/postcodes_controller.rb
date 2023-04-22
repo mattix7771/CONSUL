@@ -24,7 +24,6 @@ class Admin::PostcodesController < Admin::BaseController
 
     ENV['FILE_PATH'] = file_path
     system('rake postcodes:import_csv')
-    # system("rake postcodes:import_csv[file_path=#{file_path}]")
     redirect_to admin_postcodes_path
   end
 
