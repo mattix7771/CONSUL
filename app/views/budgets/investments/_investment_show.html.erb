@@ -43,19 +43,23 @@
               </strong>
             </span>
           </div>
-        <% elsif investment.should_show_ballots? %>
-          <div class="sidebar-divider"></div>
-          <h2><%= t("budgets.investments.show.votes") %></h2>
-          <div class="text-center">
-            <div id="<%= dom_id(investment) %>_ballot">
-              <%= render "ballot",
-                investment: investment,
-                investment_ids: investment_ids,
-                ballot: ballot %>
-            </div>
-          </div>
         <% end %>
-      <% end %>
+        
+        <%# if investment.should_show_price? %>
+          <div class="sidebar-divider"></div>
+          <h2><%= t("budgets.investments.show.estimated_price") %></h2>
+          <div class="supports text-center">
+            <p class="investment-project-amount">
+              £<%= investment.estimated_price %>
+            </p>
+          </div>
+          <% if investment.should_show_price_explanation? %>
+            <div class="text-center" data-magellan>
+              <%= link_to t("budgets.investments.show.see_price_explanation"),
+                            "#price_explanation", class: "small" %>
+            </div>
+          <% end %>
+        <%# end %>
 
       <% if investment.unfeasible? && investment.valuation_finished? %>
         <div class="callout warning">

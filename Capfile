@@ -12,6 +12,9 @@ require "capistrano/delayed_job"
 require "whenever/capistrano"
 require "rvm1/capistrano3"
 
+#troubleshooting
+#require 'capistrano/ssh_doctor'
+
 require "capistrano/puma"
 install_plugin Capistrano::Puma, load_hooks: false
 install_plugin Capistrano::Puma::Daemon
