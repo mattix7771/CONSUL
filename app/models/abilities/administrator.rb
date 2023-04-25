@@ -70,7 +70,7 @@ module Abilities
 
       can [:read, :create, :update, :destroy], Budget::Group
       can [:read, :create, :update, :destroy], Budget::Heading
-      can [:hide, :admin_update, :toggle_selection], Budget::Investment
+      can [:hide, :admin_update, :update, :toggle_selection], Budget::Investment
       can [:valuate, :comment_valuation], Budget::Investment
       cannot [:admin_update, :toggle_selection, :valuate, :comment_valuation],
         Budget::Investment, budget: { phase: "finished" }
@@ -82,6 +82,8 @@ module Abilities
       can [:search, :update, :create, :index, :destroy], Banner
 
       can [:index, :create, :update, :destroy], Geozone
+      can [:index, :create, :update, :destroy], Postcode
+
 
       can [:read, :create, :update, :destroy, :booth_assignments], Poll
       can [:read, :create, :update, :destroy, :available], Poll::Booth
@@ -134,6 +136,8 @@ module Abilities
 
       can :manage, LocalCensusRecord
       can [:create, :read], LocalCensusRecords::Import
+
+      can [:ncsv, :process_csv], Postcode
 
       if Rails.application.config.multitenancy && Tenant.default?
         can [:create, :read, :update, :hide, :restore], Tenant

@@ -245,6 +245,22 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
+
+  idp_metadata_parser = OneLogin::RubySaml::IdpMetadataParser.new
+
+  # Load IdP metadata directly from the IdP in dev / prod ENV
+  #idp_metadata = idp_metadata_parser.parse_remote_to_hash(
+  #  Rails.application.secrets.saml_idp_metadata,
+  #  true, # validate cert
+  #  entity_id: Rails.application.secrets.saml_entity_data
+  #)
+
+  # or, if you have the metadata in a String:
+  # idp_metadata = idp_metadata_parser.parse_to_hash(idp_metadata_xml)
+
+  config.omniauth :twitter, Rails.application.secrets.twitter_key, Rails.application.secrets.twitter_secret
+  config.omniauth :facebook, Rails.application.secrets.facebook_key, Rails.application.secrets.facebook_secret, scope: "email", info_fields: "email,name,verified"
+  config.omniauth :google_oauth2, Rails.application.secrets.google_oauth2_key, Rails.application.secrets.google_oauth2_secret
   config.omniauth :twitter,
                   Rails.application.secrets.twitter_key,
                   Rails.application.secrets.twitter_secret,
@@ -263,8 +279,34 @@ Devise.setup do |config|
                   Rails.application.secrets.wordpress_oauth2_key,
                   Rails.application.secrets.wordpress_oauth2_secret,
                   strategy_class: OmniAuth::Strategies::Wordpress,
-                  client_options: { site: Rails.application.secrets.wordpress_oauth2_site },
-                  setup: OmniauthTenantSetup.wordpress_oauth2
+                  client_options: { site: Rails.application.secrets.wordpress_oauth2_site }
+  config.omniauth :saml,
+                  idp_cert_fingerprint:  "44:02:BB:4C:82:6E:0D:16:AC:6C:96:C6:7B:47:F5:45:76:11:39:C4",
+                  idp_cert: "MIIHWTCCBkGgAwIBAgIQURWYB0aq6BqlyF1MvGdTZjANBgkqhkiG9w0BAQsFADCB kTELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G A1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMTkwNwYDVQQD EzBTZWN0aWdvIFJTQSBFeHRlbmRlZCBWYWxpZGF0aW9uIFNlY3VyZSBTZXJ2ZXIg Q0EwHhcNMjIwOTEyMDAwMDAwWhcNMjMwOTEyMjM1OTU5WjCByjERMA8GA1UEBRMI U0MyODc5NzgxEzARBgsrBgEEAYI3PAIBAxMCR0IxGTAXBgsrBgEEAYI3PAIBAhMI U2NvdGxhbmQxHTAbBgNVBA8TFFByaXZhdGUgT3JnYW5pemF0aW9uMQswCQYDVQQG EwJHQjERMA8GA1UECBMIU2NvdGxhbmQxJDAiBgNVBAoTG0ltcHJvdmVtZW50IFNl cnZpY2UgQ29tcGFueTEgMB4GA1UEAxMXdWF0LnNpZ25pbi5teWNhcy5vcmcudWsw ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCj8Otqq14AaJ0k4b7ovmK/ mKKabHv1EWAJz0W4LQpipTjDVSoheyKxalP3o4okzdfdpe4QS5IpSh704FaHzLAE YXwrLXmk1li1DkEstz70zJIpbXmUzdV6Es157cP7AMbhUnUZ/QvoJZGuQx0yHBdk CtviVehBKkUnj4a5OHtXAMRkUqXenfONNMDBXfbq6roeXhS5aYDDL9/zsX4UmRW5 KtjE/90fnP55FLV2ik3Gc7svWXHvIG7aWjrtlAbKdlvnaDDwwdX15dWG29wPWWY0 CYy2evF4MJRzeEp5sNH8ZIfyp1P815vFsimgJMucb4R180TTXOhGUdDhjtTUFfKv AgMBAAGjggNwMIIDbDAfBgNVHSMEGDAWgBQsaf+AyYeQrjThtOdMk4WZQOmnsjAd BgNVHQ4EFgQUjq+Nn+B4n3BXhQSq9wCTqaOsqTowDgYDVR0PAQH/BAQDAgWgMAwG A1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEkGA1Ud IARCMEAwNQYMKwYBBAGyMQECAQUBMCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2Vj dGlnby5jb20vQ1BTMAcGBWeBDAEBMFYGA1UdHwRPME0wS6BJoEeGRWh0dHA6Ly9j cmwuc2VjdGlnby5jb20vU2VjdGlnb1JTQUV4dGVuZGVkVmFsaWRhdGlvblNlY3Vy ZVNlcnZlckNBLmNybDCBhgYIKwYBBQUHAQEEejB4MFEGCCsGAQUFBzAChkVodHRw Oi8vY3J0LnNlY3RpZ28uY29tL1NlY3RpZ29SU0FFeHRlbmRlZFZhbGlkYXRpb25T ZWN1cmVTZXJ2ZXJDQS5jcnQwIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLnNlY3Rp Z28uY29tMD8GA1UdEQQ4MDaCF3VhdC5zaWduaW4ubXljYXMub3JnLnVrght3d3cu dWF0LnNpZ25pbi5teWNhcy5vcmcudWswggF+BgorBgEEAdZ5AgQCBIIBbgSCAWoB aAB2AK33vvp8/xDIi509nB4+GGq0Zyldz7EMJMqFhjTr3IKKAAABgzGWNMEAAAQD AEcwRQIhAM/PLRGBYplfuCI9SDJWDCdM4J3j9SSSLJWvi/XP58lxAiBeNdvP3G65 OYG4RRR7ACIEQ6vFgBFtndrmOfMpjBpqmwB2AFWB1MIWkDYBSuoLm1c8U/DA5Dh4 cCUIFy+jqh0HE9MMAAABgzGWNF8AAAQDAEcwRQIhAOmDl131Zim6DMQdwlFO1IlJ g98BlKrbv9AG/BDsMvVOAiBru7BzuiqIFIt4p4qs/PrwpxkqadN9nx7hV72F+JOg nQB2AHoyjFTYty22IOo44FIe6YQWcDIThU070ivBOlejUutSAAABgzGWNJUAAAQD AEcwRQIgFINRzR8YloGiaFDXZWSuIzfPrlWJSyqPwSzA/tX0dMACIQD/5bzGojPk dESMKiFWzuk+VWRmJ6nFaOWcPxge2Tbv9DANBgkqhkiG9w0BAQsFAAOCAQEAJDcU WzGvn0nr0x4+QK1bPSpHEleg9E7HxLgZd4egzqS6vV/Vq28/CCQx7f8Vw/QU5yXm n49O1sUMqGdazNA8PMLzQ2fCMA02oXly24q9B9bybuoFjwfLAk+CRSKhSMxFncVF VhvojGplZYN/QkN287ktZoXyJjTGyLlx9cVDHCBDXhyrACOG/YffdbewQZloZcFN 1wLg+mJ71U3DkP+2w4Woe2wy0sQNdIFcHBAlx8nP87BD3FK83KPpPzAyJf9dFvJo K418p3Nyt+fpMq0F9zku0OKw10TOWAi0rk4IVbyzeGdLHlUAkQT2i+Ne9d+0S+r9 +rCqELO9DYyEfm0Dig==",
+                  idp_sso_target_url: "https://uat.signin.mycas.org.uk/idp/profile/SAML2/Redirect/SSO", 
+                  idp_slo_target_url: "https://uat.signin.mycas.org.uk/idp/profile/SAML2/Redirect/SLO",
+                  name_identifier_format: "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+                  assertion_consumer_service_url: Rails.application.secrets.saml_assertion_consumer_service_url,
+                  certificate: Rails.application.secrets.saml_certificate,
+                  private_key: Rails.application.secrets.saml_private_key,
+                  issuer: "https://test.communitychoices.scot/",
+                  security: { authn_requests_signed: false,
+                    want_assertions_signed: false,
+                    want_assertions_encrypted: true,
+                    metadata_signed: false,
+                    embed_sign: false,
+                    digest_method: XMLSecurity::Document::SHA1,
+                    signature_method: XMLSecurity::Document::RSA_SHA1 },
+                  attribute_statements: { email: ['mail','Email Address','urn:oid:0.9.2342.19200300.100.1.22'],	
+                    nickname: ['Username','urn:oid:0.9.2342.19200300.100.1.1']},
+                  uid_attribute: 'urn:oid:0.9.2342.19200300.100.1.28'
+
+
+  #Add logger to get full response from the callback phase
+#  Rails.logger.level = 0
+ # OmniAuth.config.logger = Rails.logger
+  #                client_options: { site: Rails.application.secrets.wordpress_oauth2_site },
+   #               setup: OmniauthTenantSetup.wordpress_oauth2
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or

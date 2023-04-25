@@ -44,3 +44,6 @@ every :reboot do
   # Number of workers must be kept in sync with capistrano's delayed_job_workers
   command "cd #{@path} && RAILS_ENV=#{@environment} bin/delayed_job -n 2 restart"
 end
+
+custom_schedule = File.expand_path("schedule_custom.rb", __dir__)
+self.instance_eval File.read(custom_schedule), custom_schedule

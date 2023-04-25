@@ -54,7 +54,7 @@ class Admin::MenuComponent < ApplicationComponent
     end
 
     def settings?
-      controllers_names = ["settings", "tenants", "tags", "geozones", "images",
+      controllers_names = ["settings", "tenants", "tags", "geozones", "postcodes","images",
                            "content_blocks", "local_census_records", "imports"]
       controllers_names.include?(controller_name) &&
         controller.class.module_parent != Admin::Poll::Questions::Answers
@@ -456,6 +456,7 @@ class Admin::MenuComponent < ApplicationComponent
           tenants_link,
           tags_link,
           geozones_link,
+          postcodes_link,
           images_link,
           content_blocks_link,
           local_census_records_link,
@@ -496,6 +497,15 @@ class Admin::MenuComponent < ApplicationComponent
         controller_name == "geozones"
       ]
     end
+
+def postcodes_link
+      [
+        t("admin.menu.postcodes"),
+        admin_postcodes_path,
+        controller_name == "postcodes"
+      ]
+    end
+
 
     def images_link
       [

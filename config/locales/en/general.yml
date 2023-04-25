@@ -274,6 +274,10 @@ en:
       sign_in: Sign in with Wordpress
       sign_up: Sign up with Wordpress
       name: Wordpress
+    saml:
+      sign_in: Sign in with Saml
+      sign_up: Sign up with Saml
+      name: Saml
     twitter:
       sign_in: Sign in with Twitter
       sign_up: Sign up with Twitter
@@ -583,7 +587,7 @@ en:
       title: "Polls"
       participate_button: "Participate in this poll"
       participate_button_expired: "Poll ended"
-      no_geozone_restricted: "All city"
+      no_geozone_restricted: "All Council"
       geozone_restricted: "Districts"
       geozone_info: "Can participate people in the Census of: "
       already_answer: "You already have participated in this poll"
@@ -597,7 +601,7 @@ en:
       section_footer:
         title: Help with voting
         description: Citizens' polls are a participatory mechanism by which citizens with voting rights can make direct decisions
-      no_polls: "There are no open votings."
+      no_polls: "There are no open votes."
     show:
       already_voted_in_booth: "You have already participated in a physical booth. You can not participate again."
       already_voted_in_web: "You have already participated in this poll. If you vote again it will be overwritten."

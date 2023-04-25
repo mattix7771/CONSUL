@@ -41,7 +41,8 @@ gem "omniauth-facebook", "~> 9.0.0"
 gem "omniauth-google-oauth2", "~> 1.0.1"
 gem "omniauth-rails_csrf_protection", "~> 1.0.1"
 gem "omniauth-twitter", "~> 1.4.0"
-gem "paranoia", "~> 2.6.0"
+gem "omniauth-saml", "~> 2.1.0"
+gem "paranoia", "~> 2.4.3"
 gem "pg", "~> 1.4.3"
 gem "pg_search", "~> 2.3.6"
 gem "puma", "~> 4.3.12"
@@ -66,7 +67,7 @@ gem "wicked_pdf", "~> 2.6.3"
 gem "wkhtmltopdf-binary", "~> 0.12.6"
 
 source "https://rails-assets.org" do
-  gem "rails-assets-leaflet"
+  gem "rails-assets-leaflet", "1.5.1"
   gem "rails-assets-markdown-it", "~> 9.0.1"
 end
 

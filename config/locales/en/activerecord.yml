@@ -1,6 +1,6 @@
 en:
   attributes:
-    geozone_id: "Scope of operation"
+    geozone_id: "Geozone id"
     results_enabled: "Show results"
     stats_enabled: "Show stats"
     advanced_stats_enabled: "Show advanced stats"
@@ -203,6 +203,10 @@ en:
         external_code: "External code (optional)"
         census_code: "Census code (optional)"
         html_map_coordinates: "HTML <map> Coordinates (optional)"
+      # postcode:
+      #   postcode: Postcode
+      #   ward: Ward
+      #   geozone: Geozone
       milestone:
         status_id: "Current status (optional)"
         title: "Title"

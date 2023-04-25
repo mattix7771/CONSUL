@@ -1,0 +1,1841 @@
+# Logfile created on 2023-02-23 15:04:40 +0100 by logger.rb/v1.4.2
+I, [2023-02-23T15:04:40.796975 #67565]  INFO -- : Something happened
+I, [2023-02-23T15:04:44.339609 #67565]  INFO -- : Something happened
+I, [2023-02-23T15:04:44.339695 #67565]  INFO -- : Something happened
+I, [2023-02-23T15:07:09.158970 #68045]  INFO -- : Something happened
+I, [2023-02-23T15:07:12.686168 #68045]  INFO -- : Something happened to 
+I, [2023-02-23T15:07:12.686252 #68045]  INFO -- : Something happened to 
+I, [2023-02-23T15:09:30.360108 #68376]  INFO -- : Something happened
+I, [2023-02-23T15:10:33.208444 #68543]  INFO -- : Something happened
+I, [2023-02-23T15:11:18.611823 #68708]  INFO -- : Something happened
+I, [2023-02-23T15:12:34.758488 #68875]  INFO -- : Something happened
+I, [2023-02-23T15:12:38.419568 #68875]  INFO -- : Something happened to 
+I, [2023-02-23T15:12:38.419653 #68875]  INFO -- : Something happened to 
+I, [2023-02-23T15:18:11.606581 #69831]  INFO -- : Something happened
+I, [2023-02-23T15:18:15.107553 #69831]  INFO -- : Something happened to 
+I, [2023-02-23T15:18:15.107646 #69831]  INFO -- : Something happened to 
+I, [2023-02-23T15:18:54.693624 #69849]  INFO -- : Something happened
+I, [2023-02-23T15:18:58.294024 #69849]  INFO -- : Something happened to FK102FB, ward 1
+
+I, [2023-02-23T15:18:58.294165 #69849]  INFO -- : Something happened to FK102FC, ward 2
+
+I, [2023-02-23T15:22:55.426215 #70490]  INFO -- : Something happened
+I, [2023-02-23T15:22:58.925392 #70490]  INFO -- : Something happened to FK102FB, ward 1
+
+I, [2023-02-23T15:22:58.925460 #70490]  INFO -- : ward should be 
+I, [2023-02-23T15:22:58.925557 #70490]  INFO -- : Something happened to FK102FC, ward 2
+
+I, [2023-02-23T15:22:58.925595 #70490]  INFO -- : ward should be 
+I, [2023-02-23T15:24:24.520006 #70810]  INFO -- : Something happened
+I, [2023-02-23T15:24:28.010815 #70810]  INFO -- : Something happened to FK102FB, ward 1
+
+I, [2023-02-23T15:24:28.010885 #70810]  INFO -- : ward should be 
+I, [2023-02-23T15:24:28.010981 #70810]  INFO -- : Something happened to FK102FC, ward 2
+
+I, [2023-02-23T15:24:28.011010 #70810]  INFO -- : ward should be 
+I, [2023-02-23T15:27:34.193326 #71295]  INFO -- : Something happened
+I, [2023-02-23T15:27:37.698782 #71295]  INFO -- : Something happened to FK102FB, ward 1
+
+I, [2023-02-23T15:27:37.698850 #71295]  INFO -- : ward should be 
+I, [2023-02-23T15:27:37.698985 #71295]  INFO -- : Something happened to FK102FC, ward 2
+
+I, [2023-02-23T15:27:37.699015 #71295]  INFO -- : ward should be 
+I, [2023-02-23T15:28:33.190163 #71460]  INFO -- : Something happened
+I, [2023-02-23T15:28:36.746325 #71460]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:28:36.746388 #71460]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:28:36.901930 #71460]  INFO -- : ward is present
+I, [2023-02-23T15:29:26.776524 #71626]  INFO -- : Something happened
+I, [2023-02-23T15:29:30.295298 #71626]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:29:30.295367 #71626]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:29:30.380422 #71626]  INFO -- : ward is present
+I, [2023-02-23T15:32:04.792185 #71963]  INFO -- : Something happened
+I, [2023-02-23T15:32:08.389203 #71963]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:32:08.389270 #71963]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:32:08.470318 #71963]  INFO -- : ward is present FK102FB
+I, [2023-02-23T15:37:21.152513 #72952]  INFO -- : Something happened
+I, [2023-02-23T15:37:24.635769 #72952]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:37:24.635834 #72952]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:37:24.717803 #72952]  INFO -- : ward is present FK102FB
+I, [2023-02-23T15:38:49.173971 #73123]  INFO -- : Something happened
+I, [2023-02-23T15:38:52.661016 #73123]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:38:52.661083 #73123]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:38:52.742971 #73123]  INFO -- : ward is present FK102FB
+I, [2023-02-23T15:39:26.879081 #73286]  INFO -- : Something happened
+I, [2023-02-23T15:39:30.443869 #73286]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:39:30.443952 #73286]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:39:30.524711 #73286]  INFO -- : ward is present FK102FB
+I, [2023-02-23T15:40:33.776562 #73454]  INFO -- : Something happened
+I, [2023-02-23T15:40:37.281144 #73454]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:40:37.281211 #73454]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:40:37.362812 #73454]  INFO -- : ward is present FK102FB
+I, [2023-02-23T15:40:58.963656 #73466]  INFO -- : Something happened
+I, [2023-02-23T15:41:02.546451 #73466]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:41:02.546518 #73466]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:41:02.627776 #73466]  INFO -- : ward is present FK102FB
+I, [2023-02-23T15:41:02.692232 #73466]  INFO -- : Something happened to FK102FC,ward 2
+
+I, [2023-02-23T15:41:02.692327 #73466]  INFO -- : ward should be ward 2
+I, [2023-02-23T15:41:02.707738 #73466]  INFO -- : ward is present FK102FC
+I, [2023-02-23T15:42:56.844615 #73805]  INFO -- : Something happened
+I, [2023-02-23T15:43:00.361467 #73805]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T15:43:00.361534 #73805]  INFO -- : ward should be ward 1
+I, [2023-02-23T15:43:00.442643 #73805]  INFO -- : ward is present FK102FB
+I, [2023-02-23T15:43:00.826867 #73805]  INFO -- : Something happened to FK102FC,ward 2
+
+I, [2023-02-23T15:43:00.826960 #73805]  INFO -- : ward should be ward 2
+I, [2023-02-23T15:43:00.830060 #73805]  INFO -- : ward is present FK102FC
+I, [2023-02-23T17:12:37.759279 #88198]  INFO -- : Something happened
+I, [2023-02-23T17:12:41.323619 #88198]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T17:12:41.323688 #88198]  INFO -- : ward should be ward 1
+I, [2023-02-23T17:13:04.879542 #88209]  INFO -- : Something happened
+I, [2023-02-23T17:13:08.373734 #88209]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T17:13:08.373815 #88209]  INFO -- : ward should be ward 1
+I, [2023-02-23T17:13:08.476501 #88209]  INFO -- : ward is present FK102FB
+I, [2023-02-23T17:13:08.511555 #88209]  INFO -- : Something happened to FK102FC,ward 2
+
+I, [2023-02-23T17:13:08.511644 #88209]  INFO -- : ward should be ward 2
+I, [2023-02-23T17:13:08.517266 #88209]  INFO -- : ward is present FK102FC
+I, [2023-02-23T17:15:31.808077 #88687]  INFO -- : Something happened
+I, [2023-02-23T17:15:35.329958 #88687]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T17:15:35.330026 #88687]  INFO -- : ward should be ward 1
+I, [2023-02-23T17:15:35.439053 #88687]  INFO -- : ward is present FK102FB postcode exists as #<Postcode:0x0000562e88270940>
+I, [2023-02-23T17:15:35.470652 #88687]  INFO -- : Something happened to FK102FC,ward 2
+
+I, [2023-02-23T17:15:35.470718 #88687]  INFO -- : ward should be ward 2
+I, [2023-02-23T17:15:35.475463 #88687]  INFO -- : ward is present FK102FC postcode exists as #<Postcode:0x0000562e88317150>
+I, [2023-02-23T17:27:25.445139 #90605]  INFO -- : Something happened
+I, [2023-02-23T17:27:28.949503 #90605]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T17:27:28.949568 #90605]  INFO -- : ward should be ward 1
+I, [2023-02-23T17:27:29.049294 #90605]  INFO -- : ward is present FK102FB postcode exists as #<Postcode:0x000056457ec2e510>
+I, [2023-02-23T17:27:29.085540 #90605]  INFO -- : Something happened to FK102FC,ward 2
+
+I, [2023-02-23T17:27:29.085605 #90605]  INFO -- : ward should be ward 2
+I, [2023-02-23T17:27:29.090663 #90605]  INFO -- : ward is present FK102FC postcode exists as #<Postcode:0x000056457e813778>
+I, [2023-02-23T17:38:57.025085 #92362]  INFO -- : Something happened
+I, [2023-02-23T17:39:00.539203 #92362]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T17:39:00.539269 #92362]  INFO -- : ward should be ward 1
+I, [2023-02-23T17:51:36.562655 #94417]  INFO -- : Something happened
+I, [2023-02-23T17:51:40.059429 #94417]  INFO -- : Something happened to FK102FB,ward 1
+
+I, [2023-02-23T17:51:40.059489 #94417]  INFO -- : ward should be ward 1
+I, [2023-02-23T17:51:40.150383 #94417]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-23T17:51:40.198653 #94417]  INFO -- : Something happened to FK102FC,ward 3
+
+I, [2023-02-23T17:51:40.198754 #94417]  INFO -- : ward should be ward 3
+I, [2023-02-23T17:51:40.216118 #94417]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-23T17:51:40.231429 #94417]  INFO -- : Something happened to FK102FA,Ward 99
+
+I, [2023-02-23T17:51:40.231508 #94417]  INFO -- : ward should be Ward 99
+I, [2023-02-23T17:51:40.258299 #94417]  INFO -- : Something happened to FK104FA,Ward 33
+
+I, [2023-02-23T17:51:40.258398 #94417]  INFO -- : ward should be Ward 33
+I, [2023-02-23T18:09:33.577288 #97434]  INFO -- : Something happened
+I, [2023-02-23T18:09:37.142087 #97434]  INFO -- : Row being imported is FK102FB,ward 1
+
+I, [2023-02-23T18:09:37.142154 #97434]  INFO -- : ward should be ward 1
+I, [2023-02-23T18:09:37.241975 #97434]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-23T18:10:12.979921 #97621]  INFO -- : Something happened
+I, [2023-02-23T18:10:16.484872 #97621]  INFO -- : Row being imported is FK102FB,ward 1
+
+I, [2023-02-23T18:10:16.484940 #97621]  INFO -- : ward should be ward 1
+I, [2023-02-23T18:10:16.574590 #97621]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-23T18:10:41.448271 #97634]  INFO -- : Something happened
+I, [2023-02-23T18:10:44.988735 #97634]  INFO -- : Row being imported is FK102FB,ward 1
+
+I, [2023-02-23T18:10:44.988804 #97634]  INFO -- : ward should be ward 1
+I, [2023-02-23T18:10:45.079390 #97634]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-23T18:10:45.239894 #97634]  INFO -- : Row being imported is FK102FC,ward 3
+
+I, [2023-02-23T18:10:45.239958 #97634]  INFO -- : ward should be ward 3
+I, [2023-02-23T18:10:45.256082 #97634]  INFO -- : Row being imported is FK102FA,Ward 99
+
+I, [2023-02-23T18:10:45.256131 #97634]  INFO -- : ward should be Ward 99
+I, [2023-02-23T18:10:45.273088 #97634]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-23T18:10:45.273149 #97634]  INFO -- : ward should be Ward 33
+I, [2023-02-23T18:11:26.154056 #97797]  INFO -- : Something happened
+I, [2023-02-23T18:11:29.664572 #97797]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-23T18:11:29.664632 #97797]  INFO -- : ward should be ward 100
+I, [2023-02-23T18:11:30.192602 #97797]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-23T18:11:30.348620 #97797]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-23T18:11:30.348690 #97797]  INFO -- : ward should be ward 100
+I, [2023-02-23T18:11:30.365222 #97797]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-23T18:11:30.365290 #97797]  INFO -- : ward should be Ward 100
+I, [2023-02-23T18:11:30.398582 #97797]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-23T18:11:30.398648 #97797]  INFO -- : ward should be Ward 33
+I, [2023-02-23T18:15:35.899376 #98453]  INFO -- : Something happened
+I, [2023-02-23T18:15:39.435454 #98453]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-23T18:15:39.435521 #98453]  INFO -- : ward should be ward 100
+I, [2023-02-23T18:15:39.584191 #98453]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-23T18:15:39.584258 #98453]  INFO -- : ward should be ward 100
+I, [2023-02-23T18:15:39.589332 #98453]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-23T18:15:39.617413 #98453]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-23T18:15:39.617468 #98453]  INFO -- : ward should be Ward 100
+I, [2023-02-23T18:15:39.633831 #98453]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-23T18:15:39.633896 #98453]  INFO -- : ward should be Ward 33
+I, [2023-02-23T18:15:55.852182 #98463]  INFO -- : Something happened
+I, [2023-02-23T18:15:59.413227 #98463]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-23T18:15:59.413292 #98463]  INFO -- : ward should be ward 100
+I, [2023-02-23T18:15:59.550476 #98463]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-23T18:15:59.550545 #98463]  INFO -- : ward should be ward 100
+I, [2023-02-23T18:15:59.554799 #98463]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-23T18:15:59.591608 #98463]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-23T18:15:59.591657 #98463]  INFO -- : ward should be Ward 100
+I, [2023-02-23T18:15:59.608851 #98463]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-23T18:15:59.608906 #98463]  INFO -- : ward should be Ward 33
+I, [2023-02-23T18:19:14.829032 #99130]  INFO -- : Something happened
+I, [2023-02-23T18:19:18.353225 #99130]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-23T18:19:18.353293 #99130]  INFO -- : ward should be ward 100
+I, [2023-02-23T18:19:18.442024 #99130]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-23T18:19:18.442079 #99130]  INFO -- : ward should be ward 100
+I, [2023-02-23T18:19:18.445269 #99130]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-23T18:19:18.502365 #99130]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-23T18:19:18.502428 #99130]  INFO -- : ward should be Ward 100
+I, [2023-02-23T18:19:18.506628 #99130]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-23T18:19:18.506695 #99130]  INFO -- : ward should be Ward 33
+I, [2023-02-24T15:06:38.560708 #301236]  INFO -- : Something happened
+I, [2023-02-24T15:06:42.141714 #301236]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:06:42.141780 #301236]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:18:03.696889 #303037]  INFO -- : Something happened
+I, [2023-02-24T15:18:07.216270 #303037]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:18:07.216338 #303037]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:19:08.460210 #303366]  INFO -- : Something happened
+I, [2023-02-24T15:20:45.401114 #303539]  INFO -- : Something happened
+I, [2023-02-24T15:20:48.885030 #303539]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:20:48.885096 #303539]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:20:48.973239 #303539]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-24T15:20:48.973294 #303539]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:20:48.976853 #303539]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-24T15:20:49.411306 #303539]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-24T15:20:49.411394 #303539]  INFO -- : ward should be Ward 100
+I, [2023-02-24T15:20:49.417235 #303539]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-24T15:20:49.417319 #303539]  INFO -- : ward should be Ward 33
+I, [2023-02-24T15:24:05.292189 #304070]  INFO -- : Something happened
+I, [2023-02-24T15:24:08.820741 #304070]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:24:08.820807 #304070]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:24:08.900660 #304070]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-24T15:24:09.137590 #304070]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-24T15:24:09.137661 #304070]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:24:09.140560 #304070]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-24T15:24:09.262565 #304070]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-24T15:24:09.262638 #304070]  INFO -- : ward should be Ward 100
+I, [2023-02-24T15:24:09.265095 #304070]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-02-24T15:24:09.437934 #304070]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-24T15:24:09.438020 #304070]  INFO -- : ward should be Ward 33
+I, [2023-02-24T15:24:09.440749 #304070]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-02-24T15:26:00.143549 #304409]  INFO -- : Something happened
+I, [2023-02-24T15:26:03.700409 #304409]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:26:03.700477 #304409]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:26:03.783309 #304409]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-24T15:26:03.838590 #304409]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-24T15:26:03.838653 #304409]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:26:03.841431 #304409]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-24T15:26:03.855451 #304409]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-24T15:26:03.855520 #304409]  INFO -- : ward should be Ward 100
+I, [2023-02-24T15:26:03.857945 #304409]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-02-24T15:26:03.871983 #304409]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-24T15:26:03.872044 #304409]  INFO -- : ward should be Ward 33
+I, [2023-02-24T15:26:03.874461 #304409]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-02-24T15:30:34.979558 #305484]  INFO -- : Something happened
+I, [2023-02-24T15:30:38.482678 #305484]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:30:38.482761 #305484]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:30:38.565640 #305484]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-24T15:30:38.616797 #305484]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-24T15:30:38.616890 #305484]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:30:38.620214 #305484]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-24T15:30:38.632494 #305484]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-24T15:30:38.632546 #305484]  INFO -- : ward should be Ward 100
+I, [2023-02-24T15:30:38.634396 #305484]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-02-24T15:30:38.649579 #305484]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-24T15:30:38.649672 #305484]  INFO -- : ward should be Ward 33
+I, [2023-02-24T15:30:38.652275 #305484]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-02-24T15:30:38.666376 #305484]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-02-24T15:30:38.666456 #305484]  INFO -- : ward should be Johns Ward
+I, [2023-02-24T15:30:38.682583 #305484]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-02-24T15:30:38.691139 #305484]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-02-24T15:30:38.691211 #305484]  INFO -- : ward should be Johns Ward
+I, [2023-02-24T15:30:38.693742 #305484]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-02-24T15:30:38.707798 #305484]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-02-24T15:30:38.707868 #305484]  INFO -- : ward should be  Test Ward
+I, [2023-02-24T15:30:38.724243 #305484]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-02-24T15:34:22.379190 #306130]  INFO -- : Something happened
+I, [2023-02-24T15:34:25.880980 #306130]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:34:25.881043 #306130]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:34:25.963159 #306130]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-24T15:34:26.018020 #306130]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-24T15:34:26.018085 #306130]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:34:26.020675 #306130]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-24T15:34:26.034976 #306130]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-24T15:34:26.035048 #306130]  INFO -- : ward should be Ward 100
+I, [2023-02-24T15:34:26.037492 #306130]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-02-24T15:34:26.051572 #306130]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-24T15:34:26.051648 #306130]  INFO -- : ward should be Ward 33
+I, [2023-02-24T15:34:26.054227 #306130]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-02-24T15:34:26.068155 #306130]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-02-24T15:34:26.068246 #306130]  INFO -- : ward should be Johns Ward
+I, [2023-02-24T15:34:26.070611 #306130]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-02-24T15:34:26.084678 #306130]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-02-24T15:34:26.084737 #306130]  INFO -- : ward should be Johns Ward
+I, [2023-02-24T15:34:26.087297 #306130]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-02-24T15:34:26.101331 #306130]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-02-24T15:34:26.101398 #306130]  INFO -- : ward should be Test Ward
+I, [2023-02-24T15:34:26.117916 #306130]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-02-24T15:34:26.135262 #306130]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-02-24T15:34:26.135346 #306130]  INFO -- : ward should be Another ward
+I, [2023-02-24T15:34:26.151112 #306130]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-02-24T15:52:43.906790 #309011]  INFO -- : Something happened
+I, [2023-02-24T15:52:47.343609 #309011]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:52:47.343675 #309011]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:52:47.425980 #309011]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-24T15:52:47.432997 #309011]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-24T15:52:47.433050 #309011]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:52:47.435069 #309011]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-24T15:52:47.437130 #309011]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-24T15:52:47.437177 #309011]  INFO -- : ward should be Ward 100
+I, [2023-02-24T15:52:47.439190 #309011]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-02-24T15:52:47.441146 #309011]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-24T15:52:47.441193 #309011]  INFO -- : ward should be Ward 33
+I, [2023-02-24T15:52:47.443046 #309011]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-02-24T15:52:47.444759 #309011]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-02-24T15:52:47.444803 #309011]  INFO -- : ward should be Johns Ward
+I, [2023-02-24T15:52:47.446537 #309011]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-02-24T15:52:47.448395 #309011]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-02-24T15:52:47.448441 #309011]  INFO -- : ward should be Johns Ward
+I, [2023-02-24T15:52:47.450168 #309011]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-02-24T15:52:47.452049 #309011]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-02-24T15:52:47.452095 #309011]  INFO -- : ward should be Test Ward
+I, [2023-02-24T15:52:47.453735 #309011]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-02-24T15:52:47.455801 #309011]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-02-24T15:52:47.455862 #309011]  INFO -- : ward should be Another ward
+I, [2023-02-24T15:52:47.457838 #309011]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-02-24T15:54:52.341160 #309347]  INFO -- : Something happened
+I, [2023-02-24T15:54:55.836224 #309347]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-02-24T15:54:55.836302 #309347]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:54:55.918711 #309347]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-02-24T15:54:55.926023 #309347]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-02-24T15:54:55.926085 #309347]  INFO -- : ward should be ward 100
+I, [2023-02-24T15:54:55.928061 #309347]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-02-24T15:54:55.929897 #309347]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-02-24T15:54:55.929941 #309347]  INFO -- : ward should be Ward 100
+I, [2023-02-24T15:54:55.931682 #309347]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-02-24T15:54:55.933460 #309347]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-02-24T15:54:55.933508 #309347]  INFO -- : ward should be Ward 33
+I, [2023-02-24T15:54:55.935243 #309347]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-02-24T15:54:55.936953 #309347]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-02-24T15:54:55.936997 #309347]  INFO -- : ward should be Johns Ward
+I, [2023-02-24T15:54:55.938749 #309347]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-02-24T15:54:55.940551 #309347]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-02-24T15:54:55.940596 #309347]  INFO -- : ward should be Johns Ward
+I, [2023-02-24T15:54:55.942360 #309347]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-02-24T15:54:55.944160 #309347]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-02-24T15:54:55.944206 #309347]  INFO -- : ward should be Test Ward
+I, [2023-02-24T15:54:55.945833 #309347]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-02-24T15:54:55.947601 #309347]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-02-24T15:54:55.947647 #309347]  INFO -- : ward should be Another ward
+I, [2023-02-24T15:54:55.949240 #309347]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-02-24T15:54:55.950973 #309347]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-02-24T15:54:55.951018 #309347]  INFO -- : ward should be A ward to test condition
+I, [2023-02-24T15:54:56.354274 #309347]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-02-24T15:54:56.387745 #309347]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-02-24T15:54:56.387826 #309347]  INFO -- : ward should be Ward 100
+I, [2023-02-24T15:54:56.390802 #309347]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-02-24T16:24:16.686531 #314352]  INFO -- : Something happened
+I, [2023-02-24T16:24:38.929509 #314368]  INFO -- : Something happened
+I, [2023-02-24T16:24:54.885676 #314379]  INFO -- : Something happened
+I, [2023-03-02T10:18:17.777761 #1670727]  INFO -- : Something happened
+I, [2023-03-02T10:28:38.355637 #1672473]  INFO -- : Something happened
+I, [2023-03-02T10:30:09.762272 #1672795]  INFO -- : Something happened
+I, [2023-03-02T10:32:29.248559 #1673122]  INFO -- : Something happened
+I, [2023-03-02T10:34:36.746357 #1673453]  INFO -- : Something happened
+I, [2023-03-02T10:36:09.878245 #1673780]  INFO -- : Something happened
+I, [2023-03-02T10:43:12.871997 #1674924]  INFO -- : Something happened
+I, [2023-03-02T10:44:04.867157 #1674949]  INFO -- : Something happened
+I, [2023-03-02T10:44:08.462533 #1674949]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-02T10:44:08.462618 #1674949]  INFO -- : ward should be ward 100
+I, [2023-03-02T10:44:08.583699 #1674949]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-02T10:44:08.640987 #1674949]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-02T10:44:08.641081 #1674949]  INFO -- : ward should be ward 100
+I, [2023-03-02T10:44:08.644241 #1674949]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-02T10:44:08.655991 #1674949]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-02T10:44:08.656040 #1674949]  INFO -- : ward should be Ward 100
+I, [2023-03-02T10:44:08.657853 #1674949]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-02T10:44:08.672799 #1674949]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-02T10:44:08.672854 #1674949]  INFO -- : ward should be Ward 33
+I, [2023-03-02T10:44:08.675142 #1674949]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-02T10:44:08.689767 #1674949]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-02T10:44:08.689836 #1674949]  INFO -- : ward should be Johns Ward
+I, [2023-03-02T10:44:08.692278 #1674949]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-02T10:44:08.706421 #1674949]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-02T10:44:08.706522 #1674949]  INFO -- : ward should be Johns Ward
+I, [2023-03-02T10:44:08.708961 #1674949]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-02T10:44:08.722865 #1674949]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-02T10:44:08.722925 #1674949]  INFO -- : ward should be Test Ward
+I, [2023-03-02T10:44:08.724937 #1674949]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-02T10:44:08.739561 #1674949]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-02T10:44:08.739620 #1674949]  INFO -- : ward should be Another ward
+I, [2023-03-02T10:44:08.741880 #1674949]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-02T10:44:08.756518 #1674949]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-02T10:44:08.756590 #1674949]  INFO -- : ward should be A ward to test condition
+I, [2023-03-02T10:44:08.758882 #1674949]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-02T10:44:08.773017 #1674949]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-02T10:44:08.773083 #1674949]  INFO -- : ward should be Ward 100
+I, [2023-03-02T10:44:08.775324 #1674949]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-03T12:06:57.688328 #1942593]  INFO -- : Something happened
+I, [2023-03-03T13:08:18.258270 #8430]  INFO -- : Something happened
+I, [2023-03-03T13:09:49.271707 #8623]  INFO -- : Something happened
+I, [2023-03-03T13:10:54.725593 #8799]  INFO -- : Something happened
+I, [2023-03-03T13:18:13.979385 #10132]  INFO -- : Something happened
+I, [2023-03-03T13:18:17.483043 #10132]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-03T13:18:17.483164 #10132]  INFO -- : ward should be ward 100
+I, [2023-03-03T13:18:17.595432 #10132]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-03T13:18:17.636459 #10132]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-03T13:18:17.636513 #10132]  INFO -- : ward should be ward 100
+I, [2023-03-03T13:18:17.638684 #10132]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-03T13:18:17.653537 #10132]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-03T13:18:17.653607 #10132]  INFO -- : ward should be Ward 100
+I, [2023-03-03T13:18:17.670009 #10132]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-03T13:18:17.686754 #10132]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-03T13:18:17.686818 #10132]  INFO -- : ward should be Ward 33
+I, [2023-03-03T13:18:17.703231 #10132]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-03T13:18:17.720254 #10132]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-03T13:18:17.720323 #10132]  INFO -- : ward should be Johns Ward
+I, [2023-03-03T13:18:17.737048 #10132]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-03T13:18:17.753613 #10132]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-03T13:18:17.753684 #10132]  INFO -- : ward should be Johns Ward
+I, [2023-03-03T13:18:17.756446 #10132]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-03T13:18:17.769860 #10132]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-03T13:18:17.769911 #10132]  INFO -- : ward should be Test Ward
+I, [2023-03-03T13:18:17.786873 #10132]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-03T13:18:17.803770 #10132]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-03T13:18:17.803848 #10132]  INFO -- : ward should be Another ward
+I, [2023-03-03T13:18:17.820177 #10132]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-03T13:18:17.837109 #10132]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-03T13:18:17.837189 #10132]  INFO -- : ward should be A ward to test condition
+I, [2023-03-03T13:18:17.853622 #10132]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-03T13:18:17.870530 #10132]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-03T13:18:17.870606 #10132]  INFO -- : ward should be Ward 100
+I, [2023-03-03T13:18:17.873035 #10132]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T00:04:44.026384 #8029]  INFO -- : Something happened
+I, [2023-03-11T00:04:52.596882 #8029]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-11T00:04:52.596989 #8029]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:04:53.255532 #8029]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-11T00:04:53.265520 #8029]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-11T00:04:53.265647 #8029]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:04:53.268047 #8029]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-11T00:04:53.270242 #8029]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-11T00:04:53.270329 #8029]  INFO -- : ward should be Ward 100
+I, [2023-03-11T00:04:53.276760 #8029]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-11T00:04:53.278767 #8029]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-11T00:04:53.278835 #8029]  INFO -- : ward should be Ward 33
+I, [2023-03-11T00:04:53.286291 #8029]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-11T00:04:53.288414 #8029]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-11T00:04:53.288500 #8029]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T00:04:53.295720 #8029]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-11T00:04:53.298672 #8029]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-11T00:04:53.298782 #8029]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T00:04:53.301167 #8029]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-11T00:04:53.303799 #8029]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-11T00:04:53.303904 #8029]  INFO -- : ward should be Test Ward
+I, [2023-03-11T00:04:53.315371 #8029]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-11T00:04:53.317997 #8029]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-11T00:04:53.318087 #8029]  INFO -- : ward should be Another ward
+I, [2023-03-11T00:04:53.325928 #8029]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-11T00:04:53.331083 #8029]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-11T00:04:53.331160 #8029]  INFO -- : ward should be A ward to test condition
+I, [2023-03-11T00:04:53.337836 #8029]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-11T00:04:53.339821 #8029]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-11T00:04:53.339890 #8029]  INFO -- : ward should be Ward 100
+I, [2023-03-11T00:04:53.341389 #8029]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T00:04:53.343496 #8029]  INFO -- : Row being imported is FK102FD, Poopy ward
+
+I, [2023-03-11T00:04:53.343657 #8029]  INFO -- : ward should be Poopy ward
+I, [2023-03-11T00:04:53.352088 #8029]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T00:10:58.361721 #8266]  INFO -- : Something happened
+I, [2023-03-11T00:11:06.352501 #8266]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-11T00:11:06.352651 #8266]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:11:06.640266 #8266]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-11T00:11:06.650099 #8266]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-11T00:11:06.650223 #8266]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:11:06.653088 #8266]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-11T00:11:06.655059 #8266]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-11T00:11:06.655164 #8266]  INFO -- : ward should be Ward 100
+I, [2023-03-11T00:11:06.657069 #8266]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-11T00:11:06.659058 #8266]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-11T00:11:06.659133 #8266]  INFO -- : ward should be Ward 33
+I, [2023-03-11T00:11:06.660861 #8266]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-11T00:11:06.662915 #8266]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-11T00:11:06.663037 #8266]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T00:11:06.665048 #8266]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-11T00:11:06.668115 #8266]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-11T00:11:06.668399 #8266]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T00:11:06.670983 #8266]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-11T00:11:06.672864 #8266]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-11T00:11:06.672964 #8266]  INFO -- : ward should be Test Ward
+I, [2023-03-11T00:11:06.674850 #8266]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-11T00:11:06.676812 #8266]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-11T00:11:06.676887 #8266]  INFO -- : ward should be Another ward
+I, [2023-03-11T00:11:06.678617 #8266]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-11T00:11:06.680494 #8266]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-11T00:11:06.680589 #8266]  INFO -- : ward should be A ward to test condition
+I, [2023-03-11T00:11:06.682638 #8266]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-11T00:11:06.686037 #8266]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-11T00:11:06.686183 #8266]  INFO -- : ward should be Ward 100
+I, [2023-03-11T00:11:06.688080 #8266]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T00:11:06.689994 #8266]  INFO -- : Row being imported is PEEPOO, Poopyy ward
+
+I, [2023-03-11T00:11:06.690093 #8266]  INFO -- : ward should be Poopyy ward
+I, [2023-03-11T00:11:06.720055 #8266]  INFO -- : ward is present PEEPOO postcode exists as PEEPOO
+I, [2023-03-11T00:48:48.550045 #8348]  INFO -- : Something happened
+I, [2023-03-11T00:50:49.348020 #8351]  INFO -- : Something happened
+I, [2023-03-11T00:51:13.858529 #8351]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-11T00:51:13.858645 #8351]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:51:13.858713 #8351]  INFO -- : postcode should be FK102FB
+I, [2023-03-11T00:51:14.740464 #8351]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-11T00:54:16.319875 #8404]  INFO -- : Something happened
+I, [2023-03-11T00:54:38.986160 #8404]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-11T00:54:38.986557 #8404]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:54:38.986756 #8404]  INFO -- : postcode should be FK102FB
+I, [2023-03-11T00:54:39.782423 #8404]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-11T00:54:39.810370 #8404]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-11T00:54:39.810644 #8404]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:54:39.810707 #8404]  INFO -- : postcode should be FK102FC
+I, [2023-03-11T00:54:39.816576 #8404]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-11T00:54:39.818342 #8404]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-11T00:54:39.818406 #8404]  INFO -- : ward should be Ward 100
+I, [2023-03-11T00:54:39.818443 #8404]  INFO -- : postcode should be FK102FA
+I, [2023-03-11T00:54:39.830716 #8404]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-11T00:54:39.832712 #8404]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-11T00:54:39.832789 #8404]  INFO -- : ward should be Ward 33
+I, [2023-03-11T00:54:39.832827 #8404]  INFO -- : postcode should be FK104FA
+I, [2023-03-11T00:54:39.834293 #8404]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-11T00:54:39.835942 #8404]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-11T00:54:39.836006 #8404]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T00:54:39.836044 #8404]  INFO -- : postcode should be FK11AA
+I, [2023-03-11T00:54:39.845744 #8404]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-11T00:54:39.850743 #8404]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-11T00:54:39.850848 #8404]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T00:54:39.850911 #8404]  INFO -- : postcode should be FK11AB
+I, [2023-03-11T00:54:39.862776 #8404]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-11T00:54:39.866629 #8404]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-11T00:54:39.866708 #8404]  INFO -- : ward should be Test Ward
+I, [2023-03-11T00:54:39.866750 #8404]  INFO -- : postcode should be AB999AB
+I, [2023-03-11T00:54:39.868670 #8404]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-11T00:54:39.879232 #8404]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-11T00:54:39.879603 #8404]  INFO -- : ward should be Another ward
+I, [2023-03-11T00:54:39.879686 #8404]  INFO -- : postcode should be AB112FF
+I, [2023-03-11T00:54:39.900127 #8404]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-11T00:54:39.932863 #8404]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-11T00:54:39.932968 #8404]  INFO -- : ward should be A ward to test condition
+I, [2023-03-11T00:54:39.933008 #8404]  INFO -- : postcode should be AB222FG
+I, [2023-03-11T00:54:39.935438 #8404]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-11T00:54:39.943714 #8404]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-11T00:54:39.944157 #8404]  INFO -- : ward should be Ward 100
+I, [2023-03-11T00:54:39.944428 #8404]  INFO -- : postcode should be FK102FD
+I, [2023-03-11T00:54:39.950563 #8404]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T00:54:39.952600 #8404]  INFO -- : Row being imported is PEEPOO, Poopyy ward
+
+I, [2023-03-11T00:54:39.952705 #8404]  INFO -- : ward should be Poopyy ward
+I, [2023-03-11T00:54:39.953039 #8404]  INFO -- : postcode should be PEEPOO
+I, [2023-03-11T00:54:39.983054 #8404]  INFO -- : ward is present PEEPOO postcode exists as PEEPOO
+I, [2023-03-11T00:57:44.897624 #8421]  INFO -- : Something happened
+I, [2023-03-11T00:58:31.884543 #8421]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-11T00:58:31.884743 #8421]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:58:31.884827 #8421]  INFO -- : postcode should be FK102FB
+I, [2023-03-11T00:58:33.671326 #8421]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-11T00:58:33.704666 #8421]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-11T00:58:33.704777 #8421]  INFO -- : ward should be ward 100
+I, [2023-03-11T00:58:33.704851 #8421]  INFO -- : postcode should be FK102FC
+I, [2023-03-11T00:58:33.720540 #8421]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-11T00:58:33.739367 #8421]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-11T00:58:33.741638 #8421]  INFO -- : ward should be Ward 100
+I, [2023-03-11T00:58:33.746503 #8421]  INFO -- : postcode should be FK102FA
+I, [2023-03-11T00:58:33.771370 #8421]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-11T00:58:33.804518 #8421]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-11T00:58:33.804654 #8421]  INFO -- : ward should be Ward 33
+I, [2023-03-11T00:58:33.804739 #8421]  INFO -- : postcode should be FK104FA
+I, [2023-03-11T00:58:33.820194 #8421]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-11T00:58:33.851177 #8421]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-11T00:58:33.851401 #8421]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T00:58:33.851464 #8421]  INFO -- : postcode should be FK11AA
+I, [2023-03-11T00:58:33.861743 #8421]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-11T00:58:33.888240 #8421]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-11T00:58:33.894283 #8421]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T00:58:33.898747 #8421]  INFO -- : postcode should be FK11AB
+I, [2023-03-11T00:58:33.950363 #8421]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-11T00:58:33.970273 #8421]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-11T00:58:33.970573 #8421]  INFO -- : ward should be Test Ward
+I, [2023-03-11T00:58:33.970670 #8421]  INFO -- : postcode should be AB999AB
+I, [2023-03-11T00:58:33.985144 #8421]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-11T00:58:33.996777 #8421]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-11T00:58:33.998516 #8421]  INFO -- : ward should be Another ward
+I, [2023-03-11T00:58:33.999269 #8421]  INFO -- : postcode should be AB112FF
+I, [2023-03-11T00:58:34.020893 #8421]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-11T00:58:34.053343 #8421]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-11T00:58:34.053457 #8421]  INFO -- : ward should be A ward to test condition
+I, [2023-03-11T00:58:34.054036 #8421]  INFO -- : postcode should be AB222FG
+I, [2023-03-11T00:58:34.072390 #8421]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-11T00:58:34.103969 #8421]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-11T00:58:34.104589 #8421]  INFO -- : ward should be Ward 100
+I, [2023-03-11T00:58:34.105070 #8421]  INFO -- : postcode should be FK102FD
+I, [2023-03-11T00:58:34.122833 #8421]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T00:58:34.137459 #8421]  INFO -- : Row being imported is PEEPOO, Poopyy ward
+
+I, [2023-03-11T00:58:34.137575 #8421]  INFO -- : ward should be Poopyy ward
+I, [2023-03-11T00:58:34.137649 #8421]  INFO -- : postcode should be PEEPOO
+I, [2023-03-11T00:58:34.184051 #8421]  INFO -- : ward is present PEEPOO postcode exists as PEEPOO
+I, [2023-03-11T00:58:34.216703 #8421]  INFO -- : Row being imported is AAAAAAA, 7DIG
+
+I, [2023-03-11T00:58:34.216838 #8421]  INFO -- : ward should be 7DIG
+I, [2023-03-11T00:58:34.217067 #8421]  INFO -- : postcode should be AAAAAAA
+I, [2023-03-11T00:58:37.998813 #8421]  INFO -- : ward is present AAAAAAA postcode exists as AAAAAAA
+I, [2023-03-11T00:58:38.133599 #8421]  INFO -- : Row being imported is AAAAAAAA, 8DIG
+
+I, [2023-03-11T00:58:38.134507 #8421]  INFO -- : ward should be 8DIG
+I, [2023-03-11T00:58:38.134631 #8421]  INFO -- : postcode should be AAAAAAAA
+I, [2023-03-11T01:01:21.998999 #8434]  INFO -- : Something happened
+I, [2023-03-11T01:01:47.497619 #8434]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-11T01:01:47.497714 #8434]  INFO -- : ward should be ward 100
+I, [2023-03-11T01:01:47.497761 #8434]  INFO -- : postcode should be FK102FB
+I, [2023-03-11T01:01:48.447398 #8434]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-11T01:01:48.478576 #8434]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-11T01:01:48.478778 #8434]  INFO -- : ward should be ward 100
+I, [2023-03-11T01:01:48.478864 #8434]  INFO -- : postcode should be FK102FC
+I, [2023-03-11T01:01:48.480691 #8434]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-11T01:01:48.488890 #8434]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-11T01:01:48.489136 #8434]  INFO -- : ward should be Ward 100
+I, [2023-03-11T01:01:48.489246 #8434]  INFO -- : postcode should be FK102FA
+I, [2023-03-11T01:01:48.498432 #8434]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-11T01:01:48.515426 #8434]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-11T01:01:48.516940 #8434]  INFO -- : ward should be Ward 33
+I, [2023-03-11T01:01:48.517047 #8434]  INFO -- : postcode should be FK104FA
+I, [2023-03-11T01:01:48.523282 #8434]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-11T01:01:48.525894 #8434]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-11T01:01:48.526012 #8434]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T01:01:48.526064 #8434]  INFO -- : postcode should be FK11AA
+I, [2023-03-11T01:01:48.528464 #8434]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-11T01:01:48.530263 #8434]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-11T01:01:48.530367 #8434]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T01:01:48.530424 #8434]  INFO -- : postcode should be FK11AB
+I, [2023-03-11T01:01:48.532327 #8434]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-11T01:01:48.576270 #8434]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-11T01:01:48.576408 #8434]  INFO -- : ward should be Test Ward
+I, [2023-03-11T01:01:48.576553 #8434]  INFO -- : postcode should be AB999AB
+I, [2023-03-11T01:01:48.596896 #8434]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-11T01:01:48.611972 #8434]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-11T01:01:48.613080 #8434]  INFO -- : ward should be Another ward
+I, [2023-03-11T01:01:48.613978 #8434]  INFO -- : postcode should be AB112FF
+I, [2023-03-11T01:01:48.632106 #8434]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-11T01:01:48.652654 #8434]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-11T01:01:48.652905 #8434]  INFO -- : ward should be A ward to test condition
+I, [2023-03-11T01:01:48.653271 #8434]  INFO -- : postcode should be AB222FG
+I, [2023-03-11T01:01:48.678746 #8434]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-11T01:01:48.680874 #8434]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-11T01:01:48.680988 #8434]  INFO -- : ward should be Ward 100
+I, [2023-03-11T01:01:48.681048 #8434]  INFO -- : postcode should be FK102FD
+I, [2023-03-11T01:01:48.710399 #8434]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T01:01:48.728834 #8434]  INFO -- : Row being imported is PEEPOO, Poopyy ward
+
+I, [2023-03-11T01:01:48.728946 #8434]  INFO -- : ward should be Poopyy ward
+I, [2023-03-11T01:01:48.729005 #8434]  INFO -- : postcode should be PEEPOO
+I, [2023-03-11T01:01:48.730739 #8434]  INFO -- : ward is present PEEPOO postcode exists as PEEPOO
+I, [2023-03-11T01:01:48.739179 #8434]  INFO -- : Row being imported is BBBBBBB, 7DIG
+
+I, [2023-03-11T01:01:48.740256 #8434]  INFO -- : ward should be 7DIG
+I, [2023-03-11T01:01:48.741335 #8434]  INFO -- : postcode should be BBBBBBB
+I, [2023-03-11T01:01:48.747503 #8434]  INFO -- : ward is present BBBBBBB postcode exists as BBBBBBB
+I, [2023-03-11T01:01:48.829807 #8434]  INFO -- : Row being imported is CCCCCCCC, 8DIG
+
+I, [2023-03-11T01:01:48.829925 #8434]  INFO -- : ward should be 8DIG
+I, [2023-03-11T01:01:48.829982 #8434]  INFO -- : postcode should be CCCCCCCC
+I, [2023-03-11T01:07:41.971622 #8469]  INFO -- : Something happened
+I, [2023-03-11T01:08:06.853879 #8469]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-11T01:08:06.853963 #8469]  INFO -- : ward should be ward 100
+I, [2023-03-11T01:08:06.854005 #8469]  INFO -- : postcode should be FK102FB
+I, [2023-03-11T01:08:07.602538 #8469]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-11T01:08:07.634271 #8469]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-11T01:08:07.634355 #8469]  INFO -- : ward should be ward 100
+I, [2023-03-11T01:08:07.634396 #8469]  INFO -- : postcode should be FK102FC
+I, [2023-03-11T01:08:07.636443 #8469]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-11T01:08:07.638179 #8469]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-11T01:08:07.638240 #8469]  INFO -- : ward should be Ward 100
+I, [2023-03-11T01:08:07.638279 #8469]  INFO -- : postcode should be FK102FA
+I, [2023-03-11T01:08:07.651147 #8469]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-11T01:08:07.653633 #8469]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-11T01:08:07.653715 #8469]  INFO -- : ward should be Ward 33
+I, [2023-03-11T01:08:07.653757 #8469]  INFO -- : postcode should be FK104FA
+I, [2023-03-11T01:08:07.655342 #8469]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-11T01:08:07.668729 #8469]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-11T01:08:07.668811 #8469]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T01:08:07.668858 #8469]  INFO -- : postcode should be FK11AA
+I, [2023-03-11T01:08:07.670550 #8469]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-11T01:08:07.672841 #8469]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-11T01:08:07.678865 #8469]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T01:08:07.680057 #8469]  INFO -- : postcode should be FK11AB
+I, [2023-03-11T01:08:07.685467 #8469]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-11T01:08:07.687244 #8469]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-11T01:08:07.687313 #8469]  INFO -- : ward should be Test Ward
+I, [2023-03-11T01:08:07.687353 #8469]  INFO -- : postcode should be AB999AB
+I, [2023-03-11T01:08:07.693093 #8469]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-11T01:08:07.700979 #8469]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-11T01:08:07.701381 #8469]  INFO -- : ward should be Another ward
+I, [2023-03-11T01:08:07.701449 #8469]  INFO -- : postcode should be AB112FF
+I, [2023-03-11T01:08:07.703273 #8469]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-11T01:08:07.704939 #8469]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-11T01:08:07.704999 #8469]  INFO -- : ward should be A ward to test condition
+I, [2023-03-11T01:08:07.705034 #8469]  INFO -- : postcode should be AB222FG
+I, [2023-03-11T01:08:07.717626 #8469]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-11T01:08:07.719359 #8469]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-11T01:08:07.719422 #8469]  INFO -- : ward should be Ward 100
+I, [2023-03-11T01:08:07.719462 #8469]  INFO -- : postcode should be FK102FD
+I, [2023-03-11T01:08:07.720858 #8469]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T01:08:07.728877 #8469]  INFO -- : Row being imported is PEEPOO, Poopyy ward
+
+I, [2023-03-11T01:08:07.729050 #8469]  INFO -- : ward should be Poopyy ward
+I, [2023-03-11T01:08:07.729142 #8469]  INFO -- : postcode should be PEEPOO
+I, [2023-03-11T01:08:07.735019 #8469]  INFO -- : ward is present PEEPOO postcode exists as PEEPOO
+I, [2023-03-11T01:12:34.113438 #8497]  INFO -- : Something happened
+I, [2023-03-11T01:15:15.896358 #8514]  INFO -- : Something happened
+I, [2023-03-11T01:15:36.893749 #8514]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-11T01:15:36.893865 #8514]  INFO -- : ward should be ward 100
+I, [2023-03-11T01:15:36.893934 #8514]  INFO -- : postcode should be FK102FB
+I, [2023-03-11T01:15:37.895289 #8514]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-11T01:15:37.928433 #8514]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-11T01:15:37.928553 #8514]  INFO -- : ward should be ward 100
+I, [2023-03-11T01:15:37.928615 #8514]  INFO -- : postcode should be FK102FC
+I, [2023-03-11T01:15:37.938189 #8514]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-11T01:15:37.945658 #8514]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-11T01:15:37.945756 #8514]  INFO -- : ward should be Ward 100
+I, [2023-03-11T01:15:37.945822 #8514]  INFO -- : postcode should be FK102FA
+I, [2023-03-11T01:15:37.957520 #8514]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-11T01:15:37.961317 #8514]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-11T01:15:37.961427 #8514]  INFO -- : ward should be Ward 33
+I, [2023-03-11T01:15:37.961494 #8514]  INFO -- : postcode should be FK104FA
+I, [2023-03-11T01:15:37.971708 #8514]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-11T01:15:37.992298 #8514]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-11T01:15:37.993034 #8514]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T01:15:37.993473 #8514]  INFO -- : postcode should be FK11AA
+I, [2023-03-11T01:15:38.026947 #8514]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-11T01:15:38.079208 #8514]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-11T01:15:38.079374 #8514]  INFO -- : ward should be Johns Ward
+I, [2023-03-11T01:15:38.079483 #8514]  INFO -- : postcode should be FK11AB
+I, [2023-03-11T01:15:38.091321 #8514]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-11T01:15:38.104801 #8514]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-11T01:15:38.105615 #8514]  INFO -- : ward should be Test Ward
+I, [2023-03-11T01:15:38.105909 #8514]  INFO -- : postcode should be AB999AB
+I, [2023-03-11T01:15:38.128843 #8514]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-11T01:15:38.143241 #8514]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-11T01:15:38.143861 #8514]  INFO -- : ward should be Another ward
+I, [2023-03-11T01:15:38.143957 #8514]  INFO -- : postcode should be AB112FF
+I, [2023-03-11T01:15:38.224784 #8514]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-11T01:15:38.228472 #8514]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-11T01:15:38.228582 #8514]  INFO -- : ward should be A ward to test condition
+I, [2023-03-11T01:15:38.228654 #8514]  INFO -- : postcode should be AB222FG
+I, [2023-03-11T01:15:38.237044 #8514]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-11T01:15:38.245504 #8514]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-11T01:15:38.245616 #8514]  INFO -- : ward should be Ward 100
+I, [2023-03-11T01:15:38.245693 #8514]  INFO -- : postcode should be FK102FD
+I, [2023-03-11T01:15:38.258632 #8514]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-11T01:15:38.293567 #8514]  INFO -- : Row being imported is PEEPOO, Poopyy ward
+
+I, [2023-03-11T01:15:38.294761 #8514]  INFO -- : ward should be Poopyy ward
+I, [2023-03-11T01:15:38.295307 #8514]  INFO -- : postcode should be PEEPOO
+I, [2023-03-11T01:15:38.342124 #8514]  INFO -- : ward is present PEEPOO postcode exists as PEEPOO
+I, [2023-03-11T01:15:38.374768 #8514]  INFO -- : Row being imported is ddddddd, 7DIG
+
+I, [2023-03-11T01:15:38.375106 #8514]  INFO -- : ward should be 7DIG
+I, [2023-03-11T01:15:38.375218 #8514]  INFO -- : postcode should be DDDDDDD
+I, [2023-03-11T01:15:38.377959 #8514]  INFO -- : ward is present DDDDDDD postcode exists as DDDDDDD
+I, [2023-03-11T01:15:38.463145 #8514]  INFO -- : Row being imported is eeeeeeee, 8DIG
+
+I, [2023-03-11T01:15:38.463252 #8514]  INFO -- : ward should be 8DIG
+I, [2023-03-11T01:15:38.463323 #8514]  INFO -- : postcode should be EEEEEEEE
+I, [2023-03-17T16:26:21.691208 #15250]  INFO -- : Something happened
+I, [2023-03-17T16:28:49.980579 #15275]  INFO -- : Something happened
+I, [2023-03-17T16:32:49.115268 #15303]  INFO -- : Something happened
+I, [2023-03-17T17:00:35.669390 #11637]  INFO -- : Something happened
+I, [2023-03-17T17:01:34.288745 #11651]  INFO -- : Something happened
+I, [2023-03-17T17:04:34.730182 #11673]  INFO -- : Something happened
+I, [2023-03-17T17:05:44.533032 #11690]  INFO -- : Something happened
+I, [2023-03-17T17:05:52.254309 #11690]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:05:52.254446 #11690]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:05:52.254499 #11690]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:05:52.255186 #11690]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:05:52.255310 #11690]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:05:52.255376 #11690]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:05:52.258794 #11690]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:05:52.258925 #11690]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:05:52.258990 #11690]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:05:52.259714 #11690]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:05:52.259794 #11690]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:05:52.259841 #11690]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:05:52.260638 #11690]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:05:52.260707 #11690]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:05:52.260749 #11690]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:05:52.261562 #11690]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:05:52.261640 #11690]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:05:52.261680 #11690]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:05:52.264654 #11690]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:05:52.264752 #11690]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:05:52.264792 #11690]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:05:52.265502 #11690]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:05:52.265598 #11690]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:05:52.265639 #11690]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:05:52.268720 #11690]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:05:52.268845 #11690]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:05:52.268902 #11690]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:05:52.269583 #11690]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:05:52.269668 #11690]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:05:52.269718 #11690]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:07:18.971735 #11708]  INFO -- : Something happened
+I, [2023-03-17T17:07:26.636226 #11708]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:07:26.636420 #11708]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:07:26.636546 #11708]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:07:26.637078 #11708]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:07:26.637172 #11708]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:07:26.637229 #11708]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:07:26.637881 #11708]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:07:26.637959 #11708]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:07:26.638009 #11708]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:07:26.638513 #11708]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:07:26.638595 #11708]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:07:26.638664 #11708]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:07:26.639248 #11708]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:07:26.639331 #11708]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:07:26.639393 #11708]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:07:26.640068 #11708]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:07:26.640151 #11708]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:07:26.640213 #11708]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:07:26.640778 #11708]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:07:26.640860 #11708]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:07:26.640919 #11708]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:07:26.641572 #11708]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:07:26.641654 #11708]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:07:26.641714 #11708]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:07:26.642374 #11708]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:07:26.642570 #11708]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:07:26.642642 #11708]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:07:26.643113 #11708]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:07:26.643168 #11708]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:07:26.643203 #11708]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:07:26.643846 #11708]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T17:07:26.643905 #11708]  INFO -- : ward should be weird
+I, [2023-03-17T17:07:26.643941 #11708]  INFO -- : postcode should be PAPA
+I, [2023-03-17T17:10:05.861425 #11746]  INFO -- : Something happened
+I, [2023-03-17T17:10:15.415322 #11746]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:10:15.415466 #11746]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:10:15.415531 #11746]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:10:15.416121 #11746]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:10:15.416209 #11746]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:10:15.416269 #11746]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:10:15.419022 #11746]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:10:15.419287 #11746]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:10:15.419394 #11746]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:10:15.421966 #11746]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:10:15.422085 #11746]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:10:15.422147 #11746]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:10:15.422679 #11746]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:10:15.422771 #11746]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:10:15.422833 #11746]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:10:15.423415 #11746]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:10:15.423501 #11746]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:10:15.423561 #11746]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:10:15.424163 #11746]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:10:15.424258 #11746]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:10:15.424298 #11746]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:10:15.424950 #11746]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:10:15.425043 #11746]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:10:15.425084 #11746]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:10:15.425703 #11746]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:10:15.425786 #11746]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:10:15.425835 #11746]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:10:15.426372 #11746]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:10:15.426465 #11746]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:10:15.426512 #11746]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:10:15.427218 #11746]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T17:10:15.427304 #11746]  INFO -- : ward should be weird
+I, [2023-03-17T17:10:15.427346 #11746]  INFO -- : postcode should be PAPA
+I, [2023-03-17T17:10:15.428052 #11746]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T17:10:15.428149 #11746]  INFO -- : ward should be Ward 10
+I, [2023-03-17T17:10:15.428217 #11746]  INFO -- : postcode should be FK10
+I, [2023-03-17T17:10:15.428829 #11746]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T17:10:15.428918 #11746]  INFO -- : ward should be Italy
+I, [2023-03-17T17:10:15.428980 #11746]  INFO -- : postcode should be 70010
+I, [2023-03-17T17:14:24.157090 #11771]  INFO -- : Something happened
+I, [2023-03-17T17:14:31.791507 #11771]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:14:31.791604 #11771]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:14:31.791724 #11771]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:14:31.792199 #11771]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:14:31.792277 #11771]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:14:31.792319 #11771]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:14:31.792856 #11771]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:14:31.792937 #11771]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:14:31.792981 #11771]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:14:31.793643 #11771]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:14:31.793723 #11771]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:14:31.793765 #11771]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:14:31.794402 #11771]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:14:31.794484 #11771]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:14:31.794526 #11771]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:14:31.795051 #11771]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:14:31.795130 #11771]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:14:31.795173 #11771]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:14:31.795844 #11771]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:14:31.795917 #11771]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:14:31.795954 #11771]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:14:31.796544 #11771]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:14:31.796603 #11771]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:14:31.796638 #11771]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:14:31.797366 #11771]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:14:31.797466 #11771]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:14:31.797518 #11771]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:14:31.798208 #11771]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:14:31.798300 #11771]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:14:31.798348 #11771]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:14:31.798921 #11771]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T17:14:31.798991 #11771]  INFO -- : ward should be weird
+I, [2023-03-17T17:14:31.799033 #11771]  INFO -- : postcode should be PAPA
+I, [2023-03-17T17:14:31.805220 #11771]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T17:14:31.805329 #11771]  INFO -- : ward should be Ward 10
+I, [2023-03-17T17:14:31.805414 #11771]  INFO -- : postcode should be FK10
+I, [2023-03-17T17:14:31.806204 #11771]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T17:14:31.806288 #11771]  INFO -- : ward should be Italy
+I, [2023-03-17T17:14:31.806333 #11771]  INFO -- : postcode should be 70010
+I, [2023-03-17T17:17:33.924774 #11796]  INFO -- : Something happened
+I, [2023-03-17T17:17:44.028398 #11796]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:17:44.028540 #11796]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:17:44.028600 #11796]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:17:44.029102 #11796]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:17:44.029197 #11796]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:17:44.029251 #11796]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:17:44.030512 #11796]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:17:44.030637 #11796]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:17:44.030717 #11796]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:17:44.031764 #11796]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:17:44.031863 #11796]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:17:44.031920 #11796]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:17:44.032540 #11796]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:17:44.032745 #11796]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:17:44.032831 #11796]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:17:44.033365 #11796]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:17:44.033445 #11796]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:17:44.033509 #11796]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:17:44.034050 #11796]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:17:44.034129 #11796]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:17:44.034183 #11796]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:17:44.034757 #11796]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:17:44.034847 #11796]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:17:44.034914 #11796]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:17:44.035445 #11796]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:17:44.035534 #11796]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:17:44.035593 #11796]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:17:44.036182 #11796]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:17:44.036282 #11796]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:17:44.036347 #11796]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:17:44.036979 #11796]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T17:17:44.037077 #11796]  INFO -- : ward should be weird
+I, [2023-03-17T17:17:44.037142 #11796]  INFO -- : postcode should be PAPA
+I, [2023-03-17T17:17:44.037741 #11796]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T17:17:44.037830 #11796]  INFO -- : ward should be Ward 10
+I, [2023-03-17T17:17:44.037907 #11796]  INFO -- : postcode should be FK10
+I, [2023-03-17T17:17:44.038513 #11796]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T17:17:44.038621 #11796]  INFO -- : ward should be Italy
+I, [2023-03-17T17:17:44.038731 #11796]  INFO -- : postcode should be 70010
+I, [2023-03-17T17:20:14.856659 #11810]  INFO -- : Something happened
+I, [2023-03-17T17:20:23.343414 #11810]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:20:23.343502 #11810]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:20:23.343539 #11810]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:20:23.344174 #11810]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:20:23.344234 #11810]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:20:23.344269 #11810]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:20:23.345004 #11810]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:20:23.345063 #11810]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:20:23.345097 #11810]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:20:23.346055 #11810]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:20:23.346175 #11810]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:20:23.346321 #11810]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:20:23.346855 #11810]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:20:23.346937 #11810]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:20:23.346982 #11810]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:20:23.347693 #11810]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:20:23.347760 #11810]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:20:23.347798 #11810]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:20:23.348426 #11810]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:20:23.348516 #11810]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:20:23.348557 #11810]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:20:23.349087 #11810]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:20:23.349166 #11810]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:20:23.349210 #11810]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:20:23.349847 #11810]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:20:23.349930 #11810]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:20:23.349973 #11810]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:20:23.350544 #11810]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:20:23.350617 #11810]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:20:23.350656 #11810]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:20:23.351320 #11810]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T17:20:23.351409 #11810]  INFO -- : ward should be weird
+I, [2023-03-17T17:20:23.351452 #11810]  INFO -- : postcode should be PAPA
+I, [2023-03-17T17:20:23.352073 #11810]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T17:20:23.352154 #11810]  INFO -- : ward should be Ward 10
+I, [2023-03-17T17:20:23.352192 #11810]  INFO -- : postcode should be FK10
+I, [2023-03-17T17:20:23.352788 #11810]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T17:20:23.352866 #11810]  INFO -- : ward should be Italy
+I, [2023-03-17T17:20:23.352906 #11810]  INFO -- : postcode should be 70010
+I, [2023-03-17T17:30:41.654758 #11863]  INFO -- : Something happened
+I, [2023-03-17T17:37:27.798481 #11867]  INFO -- : Something happened
+I, [2023-03-17T17:37:35.662481 #11867]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:37:35.662568 #11867]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:37:35.662604 #11867]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:37:35.663296 #11867]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:37:35.663365 #11867]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:37:35.663400 #11867]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:37:35.663957 #11867]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:37:35.664032 #11867]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:37:35.664070 #11867]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:37:35.664565 #11867]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:37:35.664626 #11867]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:37:35.664660 #11867]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:37:35.665311 #11867]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:37:35.665390 #11867]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:37:35.665432 #11867]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:37:35.665941 #11867]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:37:35.666017 #11867]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:37:35.666056 #11867]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:37:35.666637 #11867]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:37:35.666725 #11867]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:37:35.666781 #11867]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:37:35.667359 #11867]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:37:35.667477 #11867]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:37:35.667519 #11867]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:37:35.668023 #11867]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:37:35.668106 #11867]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:37:35.668257 #11867]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:37:35.668759 #11867]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:37:35.668825 #11867]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:37:35.668861 #11867]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:37:35.669503 #11867]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T17:37:35.669582 #11867]  INFO -- : ward should be weird
+I, [2023-03-17T17:37:35.669619 #11867]  INFO -- : postcode should be PAPA
+I, [2023-03-17T17:37:35.670203 #11867]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T17:37:35.670265 #11867]  INFO -- : ward should be Ward 10
+I, [2023-03-17T17:37:35.670299 #11867]  INFO -- : postcode should be FK10
+I, [2023-03-17T17:37:35.671121 #11867]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T17:37:35.671222 #11867]  INFO -- : ward should be Italy
+I, [2023-03-17T17:37:35.671326 #11867]  INFO -- : postcode should be 70010
+I, [2023-03-17T17:50:12.937725 #11914]  INFO -- : Something happened
+I, [2023-03-17T17:50:20.723142 #11914]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:50:20.723239 #11914]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:50:20.723320 #11914]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:50:20.723764 #11914]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:50:20.723834 #11914]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:50:20.723875 #11914]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:50:20.724326 #11914]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:50:20.724396 #11914]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:50:20.724436 #11914]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:50:20.724850 #11914]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:50:20.724912 #11914]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:50:20.724950 #11914]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:50:20.725559 #11914]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:50:20.725619 #11914]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:50:20.725657 #11914]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:50:20.726234 #11914]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:50:20.726293 #11914]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:50:20.726329 #11914]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:50:20.726821 #11914]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:50:20.726904 #11914]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:50:20.726962 #11914]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:50:20.727434 #11914]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:50:20.727493 #11914]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:50:20.727535 #11914]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:50:20.728140 #11914]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:50:20.728215 #11914]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:50:20.728256 #11914]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:50:20.728808 #11914]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:50:20.728869 #11914]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:50:20.728904 #11914]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:50:20.729412 #11914]  INFO -- : Row being imported is FK102FE, Ward 200
+
+I, [2023-03-17T17:50:20.729469 #11914]  INFO -- : ward should be Ward 200
+I, [2023-03-17T17:50:20.729504 #11914]  INFO -- : postcode should be FK102FE
+I, [2023-03-17T17:50:20.730057 #11914]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T17:50:20.730113 #11914]  INFO -- : ward should be weird
+I, [2023-03-17T17:50:20.730148 #11914]  INFO -- : postcode should be PAPA
+I, [2023-03-17T17:50:20.730766 #11914]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T17:50:20.730824 #11914]  INFO -- : ward should be Ward 10
+I, [2023-03-17T17:50:20.730859 #11914]  INFO -- : postcode should be FK10
+I, [2023-03-17T17:50:20.731365 #11914]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T17:50:20.731421 #11914]  INFO -- : ward should be Italy
+I, [2023-03-17T17:50:20.731457 #11914]  INFO -- : postcode should be 70010
+I, [2023-03-17T17:54:39.184647 #11955]  INFO -- : Something happened
+I, [2023-03-17T17:54:47.027380 #11955]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T17:54:47.027468 #11955]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:54:47.027580 #11955]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T17:54:47.317235 #11955]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-17T17:54:47.330207 #11955]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T17:54:47.330340 #11955]  INFO -- : ward should be ward 100
+I, [2023-03-17T17:54:47.330435 #11955]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T17:54:47.332915 #11955]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-17T17:54:47.335053 #11955]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T17:54:47.335135 #11955]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:54:47.335180 #11955]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T17:54:47.337719 #11955]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-17T17:54:47.339617 #11955]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T17:54:47.339686 #11955]  INFO -- : ward should be Ward 33
+I, [2023-03-17T17:54:47.339723 #11955]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T17:54:47.341432 #11955]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-17T17:54:47.343253 #11955]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T17:54:47.343358 #11955]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:54:47.343404 #11955]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T17:54:47.345065 #11955]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-17T17:54:47.347860 #11955]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T17:54:47.347932 #11955]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T17:54:47.347970 #11955]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T17:54:47.349626 #11955]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-17T17:54:47.351499 #11955]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T17:54:47.351592 #11955]  INFO -- : ward should be Test Ward
+I, [2023-03-17T17:54:47.351638 #11955]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T17:54:47.353669 #11955]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-17T17:54:47.355562 #11955]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T17:54:47.355664 #11955]  INFO -- : ward should be Another ward
+I, [2023-03-17T17:54:47.355714 #11955]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T17:54:47.357844 #11955]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-17T17:54:47.359729 #11955]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T17:54:47.359795 #11955]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T17:54:47.359849 #11955]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T17:54:47.361441 #11955]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-17T17:54:47.364086 #11955]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T17:54:47.364189 #11955]  INFO -- : ward should be Ward 100
+I, [2023-03-17T17:54:47.364232 #11955]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T17:54:47.365730 #11955]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-17T17:54:47.367745 #11955]  INFO -- : Row being imported is FK102FE, Ward 200
+
+I, [2023-03-17T17:54:47.367872 #11955]  INFO -- : ward should be Ward 200
+I, [2023-03-17T17:54:47.367957 #11955]  INFO -- : postcode should be FK102FE
+I, [2023-03-17T17:54:50.002622 #11955]  INFO -- : ward is present FK102FE postcode exists as FK102FE
+I, [2023-03-17T17:54:50.594315 #11955]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T17:54:50.594390 #11955]  INFO -- : ward should be weird
+I, [2023-03-17T17:54:50.594426 #11955]  INFO -- : postcode should be PAPA
+I, [2023-03-17T17:54:50.595123 #11955]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T17:54:50.595201 #11955]  INFO -- : ward should be Ward 10
+I, [2023-03-17T17:54:50.595349 #11955]  INFO -- : postcode should be FK10
+I, [2023-03-17T17:54:50.595788 #11955]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T17:54:50.595864 #11955]  INFO -- : ward should be Italy
+I, [2023-03-17T17:54:50.595903 #11955]  INFO -- : postcode should be 70010
+I, [2023-03-17T17:58:41.709168 #11981]  INFO -- : Something happened
+I, [2023-03-17T18:01:11.514151 #11995]  INFO -- : Something happened
+I, [2023-03-17T18:06:04.243343 #12025]  INFO -- : Something happened
+I, [2023-03-17T18:06:15.119889 #12025]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T18:06:15.120058 #12025]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:06:15.120568 #12025]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T18:06:15.125596 #12025]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T18:06:15.125740 #12025]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:06:15.125855 #12025]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T18:06:15.126678 #12025]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T18:06:15.126783 #12025]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:06:15.126872 #12025]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T18:06:15.127493 #12025]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T18:06:15.127589 #12025]  INFO -- : ward should be Ward 33
+I, [2023-03-17T18:06:15.127656 #12025]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T18:06:15.128193 #12025]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T18:06:15.128288 #12025]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:06:15.128352 #12025]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T18:06:15.129381 #12025]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T18:06:15.129502 #12025]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:06:15.129644 #12025]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T18:06:15.130261 #12025]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T18:06:15.130357 #12025]  INFO -- : ward should be Test Ward
+I, [2023-03-17T18:06:15.130422 #12025]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T18:06:15.130932 #12025]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T18:06:15.131018 #12025]  INFO -- : ward should be Another ward
+I, [2023-03-17T18:06:15.131082 #12025]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T18:06:15.131640 #12025]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T18:06:15.131741 #12025]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T18:06:15.131814 #12025]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T18:06:15.132285 #12025]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T18:06:15.132368 #12025]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:06:15.132435 #12025]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T18:06:15.132925 #12025]  INFO -- : Row being imported is FK102FE, Ward 200
+
+I, [2023-03-17T18:06:15.133010 #12025]  INFO -- : ward should be Ward 200
+I, [2023-03-17T18:06:15.133074 #12025]  INFO -- : postcode should be FK102FE
+I, [2023-03-17T18:06:15.133588 #12025]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T18:06:15.133674 #12025]  INFO -- : ward should be weird
+I, [2023-03-17T18:06:15.133737 #12025]  INFO -- : postcode should be PAPA
+I, [2023-03-17T18:06:15.134247 #12025]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T18:06:15.134325 #12025]  INFO -- : ward should be Ward 10
+I, [2023-03-17T18:06:15.134383 #12025]  INFO -- : postcode should be FK10
+I, [2023-03-17T18:06:15.134917 #12025]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T18:06:15.135002 #12025]  INFO -- : ward should be Italy
+I, [2023-03-17T18:06:15.135063 #12025]  INFO -- : postcode should be 70010
+I, [2023-03-17T18:24:28.338744 #12059]  INFO -- : Something happened
+I, [2023-03-17T18:24:40.790572 #12059]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T18:24:40.790680 #12059]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:24:40.790740 #12059]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T18:24:41.528834 #12059]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-17T18:24:41.545565 #12059]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T18:24:41.545650 #12059]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:24:41.545694 #12059]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T18:24:41.548212 #12059]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-17T18:24:41.550966 #12059]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T18:24:41.551042 #12059]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:24:41.551083 #12059]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T18:24:41.554376 #12059]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-17T18:24:41.556901 #12059]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T18:24:41.556988 #12059]  INFO -- : ward should be Ward 33
+I, [2023-03-17T18:24:41.557032 #12059]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T18:24:41.559318 #12059]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-17T18:24:41.561503 #12059]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T18:24:41.561576 #12059]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:24:41.561615 #12059]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T18:24:41.563547 #12059]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-17T18:24:41.565675 #12059]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T18:24:41.565750 #12059]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:24:41.565790 #12059]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T18:24:41.569598 #12059]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-17T18:24:41.572114 #12059]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T18:24:41.572188 #12059]  INFO -- : ward should be Test Ward
+I, [2023-03-17T18:24:41.572225 #12059]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T18:24:41.573760 #12059]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-17T18:24:41.576111 #12059]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T18:24:41.576193 #12059]  INFO -- : ward should be Another ward
+I, [2023-03-17T18:24:41.576237 #12059]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T18:24:41.577967 #12059]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-17T18:24:41.580637 #12059]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T18:24:41.580742 #12059]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T18:24:41.580789 #12059]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T18:24:41.582497 #12059]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-17T18:24:41.586144 #12059]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T18:24:41.586231 #12059]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:24:41.586287 #12059]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T18:24:41.588277 #12059]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-17T18:24:41.591509 #12059]  INFO -- : Row being imported is FK102FE, Ward 200
+
+I, [2023-03-17T18:24:41.591593 #12059]  INFO -- : ward should be Ward 200
+I, [2023-03-17T18:24:41.591637 #12059]  INFO -- : postcode should be FK102FE
+I, [2023-03-17T18:24:41.593831 #12059]  INFO -- : ward is present FK102FE postcode exists as FK102FE
+I, [2023-03-17T18:24:41.596262 #12059]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T18:24:41.596338 #12059]  INFO -- : ward should be weird
+I, [2023-03-17T18:24:41.596373 #12059]  INFO -- : postcode should be PAPA
+I, [2023-03-17T18:24:41.674988 #12059]  INFO -- : ward is present PAPA postcode exists as PAPA
+I, [2023-03-17T18:24:41.756463 #12059]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T18:24:41.756712 #12059]  INFO -- : ward should be Ward 10
+I, [2023-03-17T18:24:41.756849 #12059]  INFO -- : postcode should be FK10
+I, [2023-03-17T18:24:41.768006 #12059]  INFO -- : ward is present FK10 postcode exists as FK10
+I, [2023-03-17T18:24:41.778192 #12059]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T18:24:41.778325 #12059]  INFO -- : ward should be Italy
+I, [2023-03-17T18:24:41.778428 #12059]  INFO -- : postcode should be 70010
+I, [2023-03-17T18:24:41.794755 #12059]  INFO -- : ward is present 70010 postcode exists as 70010
+I, [2023-03-17T18:28:02.716988 #12077]  INFO -- : Something happened
+I, [2023-03-17T18:28:11.352105 #12077]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T18:28:11.352187 #12077]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:28:11.352220 #12077]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T18:28:11.664494 #12077]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-17T18:28:11.676995 #12077]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T18:28:11.677095 #12077]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:28:11.677143 #12077]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T18:28:11.679768 #12077]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-17T18:28:11.682129 #12077]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T18:28:11.682208 #12077]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:28:11.682249 #12077]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T18:28:11.684647 #12077]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-17T18:28:11.687201 #12077]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T18:28:11.687280 #12077]  INFO -- : ward should be Ward 33
+I, [2023-03-17T18:28:11.687318 #12077]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T18:28:11.689446 #12077]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-17T18:28:11.691713 #12077]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T18:28:11.691789 #12077]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:28:11.691830 #12077]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T18:28:11.693958 #12077]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-17T18:28:11.697813 #12077]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T18:28:11.697944 #12077]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:28:11.698019 #12077]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T18:28:11.700718 #12077]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-17T18:28:11.703188 #12077]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T18:28:11.703271 #12077]  INFO -- : ward should be Test Ward
+I, [2023-03-17T18:28:11.703314 #12077]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T18:28:11.705203 #12077]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-17T18:28:11.708584 #12077]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T18:28:11.708706 #12077]  INFO -- : ward should be Another ward
+I, [2023-03-17T18:28:11.708770 #12077]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T18:28:11.711133 #12077]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-17T18:28:11.715119 #12077]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T18:28:11.715201 #12077]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T18:28:11.715244 #12077]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T18:28:11.717104 #12077]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-17T18:28:11.719919 #12077]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T18:28:11.720008 #12077]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:28:11.720055 #12077]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T18:28:11.722104 #12077]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-17T18:28:11.725818 #12077]  INFO -- : Row being imported is FK102FE, Ward 200
+
+I, [2023-03-17T18:28:11.725918 #12077]  INFO -- : ward should be Ward 200
+I, [2023-03-17T18:28:11.725965 #12077]  INFO -- : postcode should be FK102FE
+I, [2023-03-17T18:28:11.728618 #12077]  INFO -- : ward is present FK102FE postcode exists as FK102FE
+I, [2023-03-17T18:28:11.732140 #12077]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T18:28:11.732292 #12077]  INFO -- : ward should be weird
+I, [2023-03-17T18:28:11.732350 #12077]  INFO -- : postcode should be PAPA
+I, [2023-03-17T18:28:11.734366 #12077]  INFO -- : ward is present PAPA postcode exists as PAPA
+I, [2023-03-17T18:28:11.738138 #12077]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T18:28:11.738231 #12077]  INFO -- : ward should be Ward 10
+I, [2023-03-17T18:28:11.738277 #12077]  INFO -- : postcode should be FK10
+I, [2023-03-17T18:28:11.740891 #12077]  INFO -- : ward is present FK10 postcode exists as FK10
+I, [2023-03-17T18:28:11.746384 #12077]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T18:28:11.746479 #12077]  INFO -- : ward should be Italy
+I, [2023-03-17T18:28:11.746524 #12077]  INFO -- : postcode should be 70010
+I, [2023-03-17T18:28:11.748326 #12077]  INFO -- : ward is present 70010 postcode exists as 70010
+I, [2023-03-17T18:28:11.750301 #12077]  INFO -- : Row being imported is KKK, wrong
+
+I, [2023-03-17T18:28:11.750370 #12077]  INFO -- : ward should be wrong
+I, [2023-03-17T18:28:11.750404 #12077]  INFO -- : postcode should be KKK
+I, [2023-03-17T18:28:11.765475 #12077]  INFO -- : ward is present KKK postcode exists as KKK
+I, [2023-03-17T18:33:46.271565 #12115]  INFO -- : Something happened
+I, [2023-03-17T18:33:56.732015 #12115]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T18:33:56.732219 #12115]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:33:56.732307 #12115]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T18:33:57.542264 #12115]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-17T18:33:57.554456 #12115]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T18:33:57.554556 #12115]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:33:57.554595 #12115]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T18:33:57.556973 #12115]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-17T18:33:57.559632 #12115]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T18:33:57.559767 #12115]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:33:57.559858 #12115]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T18:33:57.562496 #12115]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-17T18:33:57.565890 #12115]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T18:33:57.565991 #12115]  INFO -- : ward should be Ward 33
+I, [2023-03-17T18:33:57.566029 #12115]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T18:33:57.568901 #12115]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-17T18:33:57.573439 #12115]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T18:33:57.573569 #12115]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:33:57.573642 #12115]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T18:33:57.575908 #12115]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-17T18:33:57.579756 #12115]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T18:33:57.579872 #12115]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:33:57.579920 #12115]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T18:33:57.586433 #12115]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-17T18:33:57.589791 #12115]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T18:33:57.590231 #12115]  INFO -- : ward should be Test Ward
+I, [2023-03-17T18:33:57.590287 #12115]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T18:33:57.594694 #12115]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-17T18:33:57.597964 #12115]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T18:33:57.598103 #12115]  INFO -- : ward should be Another ward
+I, [2023-03-17T18:33:57.598186 #12115]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T18:33:57.601803 #12115]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-17T18:33:57.606532 #12115]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T18:33:57.606687 #12115]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T18:33:57.606775 #12115]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T18:33:57.610250 #12115]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-17T18:33:57.612565 #12115]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T18:33:57.612681 #12115]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:33:57.612763 #12115]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T18:33:57.616602 #12115]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-17T18:33:57.619880 #12115]  INFO -- : Row being imported is FK102FE, Ward 200
+
+I, [2023-03-17T18:33:57.619988 #12115]  INFO -- : ward should be Ward 200
+I, [2023-03-17T18:33:57.620059 #12115]  INFO -- : postcode should be FK102FE
+I, [2023-03-17T18:33:57.623718 #12115]  INFO -- : ward is present FK102FE postcode exists as FK102FE
+I, [2023-03-17T18:33:57.627249 #12115]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T18:33:57.627389 #12115]  INFO -- : ward should be weird
+I, [2023-03-17T18:33:57.627482 #12115]  INFO -- : postcode should be PAPA
+I, [2023-03-17T18:33:57.630292 #12115]  INFO -- : ward is present PAPA postcode exists as PAPA
+I, [2023-03-17T18:33:57.633546 #12115]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T18:33:57.633695 #12115]  INFO -- : ward should be Ward 10
+I, [2023-03-17T18:33:57.633771 #12115]  INFO -- : postcode should be FK10
+I, [2023-03-17T18:33:57.636370 #12115]  INFO -- : ward is present FK10 postcode exists as FK10
+I, [2023-03-17T18:33:57.642092 #12115]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T18:33:57.642242 #12115]  INFO -- : ward should be Italy
+I, [2023-03-17T18:33:57.642334 #12115]  INFO -- : postcode should be 70010
+I, [2023-03-17T18:33:57.646522 #12115]  INFO -- : ward is present 70010 postcode exists as 70010
+I, [2023-03-17T18:33:57.650378 #12115]  INFO -- : Row being imported is ewihdfhweihifowehd, wrong
+
+I, [2023-03-17T18:33:57.650636 #12115]  INFO -- : ward should be wrong
+I, [2023-03-17T18:33:57.650837 #12115]  INFO -- : postcode should be EWIHDFHWEIHIFOWEHD
+I, [2023-03-17T18:33:57.659550 #12115]  INFO -- : ward is present EWIHDFHWEIHIFOWEHD postcode exists as EWIHDFHWEIHIFOWEHD
+I, [2023-03-17T18:41:54.758037 #12130]  INFO -- : Something happened
+I, [2023-03-17T18:42:06.898470 #12130]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T18:42:06.898562 #12130]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:42:06.898608 #12130]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T18:42:07.214817 #12130]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-17T18:42:07.225306 #12130]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T18:42:07.225422 #12130]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:42:07.225477 #12130]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T18:42:07.227387 #12130]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-17T18:42:07.229318 #12130]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T18:42:07.229401 #12130]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:42:07.229448 #12130]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T18:42:07.231281 #12130]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-17T18:42:07.233014 #12130]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T18:42:07.233085 #12130]  INFO -- : ward should be Ward 33
+I, [2023-03-17T18:42:07.233127 #12130]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T18:42:07.234914 #12130]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-17T18:42:07.236590 #12130]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T18:42:07.236664 #12130]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:42:07.236829 #12130]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T18:42:07.242788 #12130]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-17T18:42:07.245075 #12130]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T18:42:07.245165 #12130]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:42:07.245212 #12130]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T18:42:07.247130 #12130]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-17T18:42:07.248951 #12130]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T18:42:07.249039 #12130]  INFO -- : ward should be Test Ward
+I, [2023-03-17T18:42:07.249083 #12130]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T18:42:07.250807 #12130]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-17T18:42:07.253880 #12130]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T18:42:07.253964 #12130]  INFO -- : ward should be Another ward
+I, [2023-03-17T18:42:07.254008 #12130]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T18:42:07.258295 #12130]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-17T18:42:07.260857 #12130]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T18:42:07.260960 #12130]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T18:42:07.261009 #12130]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T18:42:07.262607 #12130]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-17T18:42:07.264654 #12130]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T18:42:07.264765 #12130]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:42:07.264826 #12130]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T18:42:07.266602 #12130]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-17T18:42:07.270274 #12130]  INFO -- : Row being imported is FK102FE, Ward 200
+
+I, [2023-03-17T18:42:07.270408 #12130]  INFO -- : ward should be Ward 200
+I, [2023-03-17T18:42:07.270462 #12130]  INFO -- : postcode should be FK102FE
+I, [2023-03-17T18:42:07.275576 #12130]  INFO -- : ward is present FK102FE postcode exists as FK102FE
+I, [2023-03-17T18:42:07.278660 #12130]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T18:42:07.278778 #12130]  INFO -- : ward should be weird
+I, [2023-03-17T18:42:07.278866 #12130]  INFO -- : postcode should be PAPA
+I, [2023-03-17T18:42:07.280687 #12130]  INFO -- : ward is present PAPA postcode exists as PAPA
+I, [2023-03-17T18:42:07.282769 #12130]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T18:42:07.282846 #12130]  INFO -- : ward should be Ward 10
+I, [2023-03-17T18:42:07.282887 #12130]  INFO -- : postcode should be FK10
+I, [2023-03-17T18:42:07.285422 #12130]  INFO -- : ward is present FK10 postcode exists as FK10
+I, [2023-03-17T18:42:07.287355 #12130]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T18:42:07.287474 #12130]  INFO -- : ward should be Italy
+I, [2023-03-17T18:42:07.287520 #12130]  INFO -- : postcode should be 70010
+I, [2023-03-17T18:42:07.292185 #12130]  INFO -- : ward is present 70010 postcode exists as 70010
+I, [2023-03-17T18:42:07.295021 #12130]  INFO -- : Row being imported is ewihdfhweihifowehd, wrong
+
+I, [2023-03-17T18:42:07.295138 #12130]  INFO -- : ward should be wrong
+I, [2023-03-17T18:42:07.295230 #12130]  INFO -- : postcode should be EWIHDFHWEIHIFOWEHD
+I, [2023-03-17T18:42:07.297086 #12130]  INFO -- : ward is present EWIHDFHWEIHIFOWEHD postcode exists as EWIHDFHWEIHIFOWEHD
+I, [2023-03-17T18:44:30.488238 #12146]  INFO -- : Something happened
+I, [2023-03-17T18:44:41.675941 #12146]  INFO -- : Row being imported is FK102FB,ward 100
+
+I, [2023-03-17T18:44:41.676231 #12146]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:44:41.676331 #12146]  INFO -- : postcode should be FK102FB
+I, [2023-03-17T18:44:42.020115 #12146]  INFO -- : ward is present FK102FB postcode exists as FK102FB
+I, [2023-03-17T18:44:42.031589 #12146]  INFO -- : Row being imported is FK102FC,ward 100
+
+I, [2023-03-17T18:44:42.031714 #12146]  INFO -- : ward should be ward 100
+I, [2023-03-17T18:44:42.031785 #12146]  INFO -- : postcode should be FK102FC
+I, [2023-03-17T18:44:42.034490 #12146]  INFO -- : ward is present FK102FC postcode exists as FK102FC
+I, [2023-03-17T18:44:42.037306 #12146]  INFO -- : Row being imported is FK102FA,Ward 100
+
+I, [2023-03-17T18:44:42.037423 #12146]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:44:42.037507 #12146]  INFO -- : postcode should be FK102FA
+I, [2023-03-17T18:44:42.040033 #12146]  INFO -- : ward is present FK102FA postcode exists as FK102FA
+I, [2023-03-17T18:44:42.045365 #12146]  INFO -- : Row being imported is FK104FA,Ward 33
+
+I, [2023-03-17T18:44:42.045524 #12146]  INFO -- : ward should be Ward 33
+I, [2023-03-17T18:44:42.045607 #12146]  INFO -- : postcode should be FK104FA
+I, [2023-03-17T18:44:42.049103 #12146]  INFO -- : ward is present FK104FA postcode exists as FK104FA
+I, [2023-03-17T18:44:42.051382 #12146]  INFO -- : Row being imported is FK11AA,Johns Ward
+
+I, [2023-03-17T18:44:42.051508 #12146]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:44:42.051601 #12146]  INFO -- : postcode should be FK11AA
+I, [2023-03-17T18:44:42.054207 #12146]  INFO -- : ward is present FK11AA postcode exists as FK11AA
+I, [2023-03-17T18:44:42.056666 #12146]  INFO -- : Row being imported is FK11AB,Johns Ward
+
+I, [2023-03-17T18:44:42.056770 #12146]  INFO -- : ward should be Johns Ward
+I, [2023-03-17T18:44:42.056837 #12146]  INFO -- : postcode should be FK11AB
+I, [2023-03-17T18:44:42.061454 #12146]  INFO -- : ward is present FK11AB postcode exists as FK11AB
+I, [2023-03-17T18:44:42.064349 #12146]  INFO -- : Row being imported is AB999AB, Test Ward
+
+I, [2023-03-17T18:44:42.064438 #12146]  INFO -- : ward should be Test Ward
+I, [2023-03-17T18:44:42.064490 #12146]  INFO -- : postcode should be AB999AB
+I, [2023-03-17T18:44:42.068217 #12146]  INFO -- : ward is present AB999AB postcode exists as AB999AB
+I, [2023-03-17T18:44:42.071165 #12146]  INFO -- : Row being imported is AB11 2FF, Another ward
+
+I, [2023-03-17T18:44:42.071266 #12146]  INFO -- : ward should be Another ward
+I, [2023-03-17T18:44:42.071322 #12146]  INFO -- : postcode should be AB112FF
+I, [2023-03-17T18:44:42.073761 #12146]  INFO -- : ward is present AB112FF postcode exists as AB112FF
+I, [2023-03-17T18:44:42.078922 #12146]  INFO -- : Row being imported is AB22 2FG, A ward to test condition
+
+I, [2023-03-17T18:44:42.079033 #12146]  INFO -- : ward should be A ward to test condition
+I, [2023-03-17T18:44:42.079110 #12146]  INFO -- : postcode should be AB222FG
+I, [2023-03-17T18:44:42.082926 #12146]  INFO -- : ward is present AB222FG postcode exists as AB222FG
+I, [2023-03-17T18:44:42.085755 #12146]  INFO -- : Row being imported is FK102FD, Ward 100
+
+I, [2023-03-17T18:44:42.085850 #12146]  INFO -- : ward should be Ward 100
+I, [2023-03-17T18:44:42.085910 #12146]  INFO -- : postcode should be FK102FD
+I, [2023-03-17T18:44:42.087942 #12146]  INFO -- : ward is present FK102FD postcode exists as FK102FD
+I, [2023-03-17T18:44:42.090021 #12146]  INFO -- : Row being imported is FK102FE, Ward 200
+
+I, [2023-03-17T18:44:42.090111 #12146]  INFO -- : ward should be Ward 200
+I, [2023-03-17T18:44:42.090258 #12146]  INFO -- : postcode should be FK102FE
+I, [2023-03-17T18:44:42.094579 #12146]  INFO -- : ward is present FK102FE postcode exists as FK102FE
+I, [2023-03-17T18:44:42.096914 #12146]  INFO -- : Row being imported is Papa, weird
+
+I, [2023-03-17T18:44:42.097006 #12146]  INFO -- : ward should be weird
+I, [2023-03-17T18:44:42.097068 #12146]  INFO -- : postcode should be PAPA
+I, [2023-03-17T18:44:42.100454 #12146]  INFO -- : ward is present PAPA postcode exists as PAPA
+I, [2023-03-17T18:44:42.102731 #12146]  INFO -- : Row being imported is FK10, Ward 10
+
+I, [2023-03-17T18:44:42.102952 #12146]  INFO -- : ward should be Ward 10
+I, [2023-03-17T18:44:42.103030 #12146]  INFO -- : postcode should be FK10
+I, [2023-03-17T18:44:42.106106 #12146]  INFO -- : ward is present FK10 postcode exists as FK10
+I, [2023-03-17T18:44:42.110824 #12146]  INFO -- : Row being imported is 70010, Italy
+
+I, [2023-03-17T18:44:42.111489 #12146]  INFO -- : ward should be Italy
+I, [2023-03-17T18:44:42.111649 #12146]  INFO -- : postcode should be 70010
+I, [2023-03-17T18:44:42.114307 #12146]  INFO -- : ward is present 70010 postcode exists as 70010
+I, [2023-03-17T18:44:42.117363 #12146]  INFO -- : Row being imported is ewihdfhweihifowehd, wrong
+
+I, [2023-03-17T18:44:42.117474 #12146]  INFO -- : ward should be wrong
+I, [2023-03-17T18:44:42.117525 #12146]  INFO -- : postcode should be EWIHDFHWEIHIFOWEHD
+I, [2023-03-17T18:44:42.119537 #12146]  INFO -- : ward is present EWIHDFHWEIHIFOWEHD postcode exists as EWIHDFHWEIHIFOWEHD
+I, [2023-03-17T18:44:42.142637 #12146]  INFO -- : Row being imported is !#¤%¤¤, what
+
+I, [2023-03-17T18:44:42.142771 #12146]  INFO -- : ward should be what
+I, [2023-03-17T18:44:42.142971 #12146]  INFO -- : postcode should be !#¤%¤¤
+I, [2023-03-17T18:44:42.158305 #12146]  INFO -- : ward is present !#¤%¤¤ postcode exists as !#¤%¤¤
