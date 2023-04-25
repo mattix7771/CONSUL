@@ -24,19 +24,20 @@ class Admin::PostcodesController < Admin::BaseController
   def process_csv
     uploaded_file = params[:file]
     file_path = uploaded_file.path
-
-    postcode_validation(file_path)
-
-    redirect_to admin_postcodes_path
+    if File.extname(file_path) == ".csv"
+      postcode_validation(file_path)
+      redirect_to admin_postcodes_path
+    else
+      @error_msg = "Please select a CSV file."
+      render :ncsv
+    end
   end
 
   def postcode_validation(file_path)
 
-    # Load the XML file containing the postal code regex patterns for each territory
     xml_file = File.new("lib/tasks/postcodes.xml")
     xml_doc = REXML::Document.new(xml_file)
 
-    # Build a hash of territory codes and regex patterns
     regex_patterns = {}
     REXML::XPath.each(xml_doc, "//postCodeRegex") do |element|
       territory_id = element.attributes["territoryId"]
@@ -44,16 +45,16 @@ class Admin::PostcodesController < Admin::BaseController
     end
 
     CSV.foreach(file_path, headers: true) do |row| 
-      next unless row["ward"].present? && row["postcode"].present? #rejects empty entries
+      next unless row["ward"].present? && row["postcode"].present?
 
       p row
       ward = "init"
 	    ward = row["ward"].strip
-      postcode = row["postcode"].delete(' ').upcase #deletes empty spaces and upper case
+      postcode = row["postcode"].delete(' ').upcase
 
       if regex_patterns.any? { |_, pattern| postcode =~ pattern }  && postcode.length <= 10
         geozone = Geozone.find_or_create_by!(name: ward)
-        Postcode.create!(postcode:postcode, ward:ward, geozone_id:geozone.id) unless Postcode.exists?(postcode: postcode) #rejects duplicate postcodes
+        Postcode.create!(postcode:postcode, ward:ward, geozone_id:geozone.id) unless Postcode.exists?(postcode: postcode)
       end
     end
   end
