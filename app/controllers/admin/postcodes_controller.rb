@@ -23,20 +23,33 @@ class Admin::PostcodesController < Admin::BaseController
 
   def process_csv
     uploaded_file = params[:file]
-    file_path = uploaded_file.path
-    if File.extname(file_path) == ".csv"
-      postcode_validation(file_path)
-      redirect_to admin_postcodes_path
-    else
+    expected_headers = ["postcode", "ward"]
+
+    if uploaded_file.nil?
       @error_msg = "Please select a CSV file."
       render :ncsv
+    else
+      file_path = uploaded_file.path
+      if File.extname(file_path) == ".csv" && CSV.read(file_path, headers: true).headers == expected_headers
+        @rejected_entries, @accepted_entries = postcode_validation(file_path)
+        render :ncsv_review
+      else
+        @error_msg = "Please select a CSV file."
+        render :ncsv
+      end
     end
+  end
+
+  def ncsv_review
   end
 
   def postcode_validation(file_path)
 
     xml_file = File.new("lib/tasks/postcodes.xml")
     xml_doc = REXML::Document.new(xml_file)
+
+    rejected_entries = []
+    accepted_entries = []
 
     regex_patterns = {}
     REXML::XPath.each(xml_doc, "//postCodeRegex") do |element|
@@ -52,11 +65,22 @@ class Admin::PostcodesController < Admin::BaseController
 	    ward = row["ward"].strip
       postcode = row["postcode"].delete(' ').upcase
 
-      if regex_patterns.any? { |_, pattern| postcode =~ pattern }  && postcode.length <= 10
+      if !regex_patterns.any? { |_, pattern| postcode =~ pattern }
+        row << "Error: Invalid postcode"
+        rejected_entries << row
+      elsif postcode.length > 10
+        row << "Error: Postcode too long"
+        rejected_entries << row
+      elsif Postcode.exists?(postcode: postcode)
+        row << "Error: Postcode already exists"
+        rejected_entries << row
+      else
         geozone = Geozone.find_or_create_by!(name: ward)
-        Postcode.create!(postcode:postcode, ward:ward, geozone_id:geozone.id) unless Postcode.exists?(postcode: postcode)
+        Postcode.create!(postcode:postcode, ward:ward, geozone_id:geozone.id)
+        accepted_entries << row
       end
     end
+    return [rejected_entries, accepted_entries]
   end
 
   def edit

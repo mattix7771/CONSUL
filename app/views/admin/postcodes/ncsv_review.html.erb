@@ -1,0 +1,46 @@
+<%= back_link_to admin_postcodes_path, t("admin.postcodes.new.back") %>
+<br><br>
+<h2 class="inline-block"><%= t("admin.postcodes.index.title") %></h2>
+
+<h3>Import process results</h3>
+<h4>Errored rows: (<%= @rejected_entries.length %>)</h4>
+<h4>Accepted rows: (<%= @accepted_entries.length %>)</h4>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th><%= t("admin.postcodes.postcode.postcode") %></th>
+      <th><%= t("admin.postcodes.postcode.ward") %></th>
+      <th><%= t("admin.postcodes.postcode.geozone_id") %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @rejected_entries.each do |rejected_entry| %>
+      <tr>
+        <% rejected_entry.each do |key, value| %>
+          <td><%= value %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th><%= t("admin.postcodes.postcode.postcode") %></th>
+      <th><%= t("admin.postcodes.postcode.ward") %></th>
+      <th><%= t("admin.postcodes.postcode.geozone_id") %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @accepted_entries.each do |accepted_entry| %>
+      <tr>
+        <% accepted_entry.each do |key, value| %>
+          <td><%= value %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
