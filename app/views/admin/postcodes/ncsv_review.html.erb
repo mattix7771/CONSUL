@@ -2,9 +2,12 @@
 <br><br>
 <h2 class="inline-block"><%= t("admin.postcodes.index.title") %></h2>
 
+<%= link_to t("admin.postcodes.index.csv_import"),
+            ncsv_admin_postcodes_path,
+            class: "button float-right hollow" %>
+
 <h3>Import process results</h3>
-<h4>Errored rows: (<%= @rejected_entries.length %>)</h4>
-<h4>Accepted rows: (<%= @accepted_entries.length %>)</h4>
+<h4>Errored rows (<%= @rejected_entries.length %>)</h4>
 <br>
 <table>
   <thead>
@@ -16,15 +19,24 @@
   </thead>
 
   <tbody>
-    <% @rejected_entries.each do |rejected_entry| %>
+    <% if @rejected_entries.length == 0 %>
       <tr>
-        <% rejected_entry.each do |key, value| %>
-          <td><%= value %></td>
-        <% end %>
+        <td>No records found.</td>
       </tr>
+    <% else %>
+      <% @rejected_entries.each do |rejected_entry| %>
+        <tr>
+          <% rejected_entry.each do |key, value| %>
+            <td><%= value %></td>
+          <% end %>
+        </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
+
+<h4>Created records (<%= @accepted_entries.length %>)</h4>
+
 <table>
   <thead>
     <tr>
@@ -35,6 +47,11 @@
   </thead>
 
   <tbody>
+  <% if @accepted_entries.length == 0 %>
+    <tr>
+      <td>No records found.</td>
+    </tr>
+  <% else %>
     <% @accepted_entries.each do |accepted_entry| %>
       <tr>
         <% accepted_entry.each do |key, value| %>
@@ -42,5 +59,6 @@
         <% end %>
       </tr>
     <% end %>
+  <% end %>
   </tbody>
 </table>
