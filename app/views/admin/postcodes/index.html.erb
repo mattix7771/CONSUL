@@ -17,15 +17,21 @@
   </thead>
 
   <tbody>
-    <% @postcodes.each do |postcode| %>
-      <tr id="<%= dom_id(postcode) %>">
-        <td><%= postcode.postcode %></td>
-        <td><%= postcode.ward %></td>
-        <td><%= postcode.geozone_id %></td>
-        <td>
-          <%= render Admin::TableActionsComponent.new(postcode) %>
-        </td>
+    <% if @postcodes.none? %>
+      <tr>
+        <td><%= t("admin.postcodes.index.no_record") %></td>
       </tr>
+    <% else %>
+      <% @postcodes.each do |postcode| %>
+        <tr id="<%= dom_id(postcode) %>">
+          <td><%= postcode.postcode %></td>
+          <td><%= postcode.ward %></td>
+          <td><%= postcode.geozone_id %></td>
+          <td>
+            <%= render Admin::TableActionsComponent.new(postcode) %>
+          </td>
+        </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
