@@ -7,7 +7,7 @@ class Admin::PostcodesController < Admin::BaseController
   load_and_authorize_resource
 
   def index
-    @postcodes = Postcode.all.order(Arel.sql("UPPER(postcode)"))
+    @postcodes = Postcode.all.order(Arel.sql("UPPER(postcode)")).page(params[:page]).per(10)
   end
 
   def new

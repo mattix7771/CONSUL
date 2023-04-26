@@ -6,7 +6,9 @@
 
 <h2 class="inline-block"><%= t("admin.postcodes.index.title") %></h2>
 
-<table>
+<% if @postcodes.any? %>
+  <h3><%= page_entries_info @postcodes %></h3>
+  <table>
   <thead>
     <tr>
       <th><%= t("admin.postcodes.postcode.postcode") %></th>
@@ -17,21 +19,21 @@
   </thead>
 
   <tbody>
-    <% if @postcodes.none? %>
-      <tr>
-        <td><%= t("admin.postcodes.index.no_record") %></td>
+    <% @postcodes.each do |postcode| %>
+      <tr id="<%= dom_id(postcode) %>">
+        <td><%= postcode.postcode %></td>
+        <td><%= postcode.ward %></td>
+        <td><%= postcode.geozone_id %></td>
+        <td>
+          <%= render Admin::TableActionsComponent.new(postcode) %>
+        </td>
       </tr>
-    <% else %>
-      <% @postcodes.each do |postcode| %>
-        <tr id="<%= dom_id(postcode) %>">
-          <td><%= postcode.postcode %></td>
-          <td><%= postcode.ward %></td>
-          <td><%= postcode.geozone_id %></td>
-          <td>
-            <%= render Admin::TableActionsComponent.new(postcode) %>
-          </td>
-        </tr>
-      <% end %>
     <% end %>
   </tbody>
 </table>
+<h3><%= paginate @postcodes %></h3>
+<% else %>
+  <div class="callout primary">
+    <%= t("admin.postcodes.index.no_record") %>
+  </div>
+<% end %>
