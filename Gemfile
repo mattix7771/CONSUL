@@ -9,6 +9,7 @@ gem "airbrake", "~> 13.0.2"
 gem "ancestry", "~> 4.2.0"
 gem "audited", "~> 5.0.2"
 gem "autoprefixer-rails", "~> 8.2.0"
+gem "bing_translator", "~> 6.2.0"
 gem "cancancan", "~> 3.4.0"
 gem "caxlsx", "~> 3.2.0"
 gem "caxlsx_rails", "~> 0.6.3"
@@ -56,7 +57,6 @@ gem "savon", "~> 2.13.0"
 gem "sitemap_generator", "~> 6.3.0"
 gem "social-share-button", "~> 1.2.4"
 gem "sprockets", "~> 4.1.1"
-gem "translator-text", "~> 0.1.0"
 gem "turbolinks", "~> 5.2.1"
 gem "turnout", "~> 2.5.0"
 gem "uglifier", "~> 4.2.0"
@@ -101,10 +101,10 @@ group :development do
   gem "capistrano-rails", "~> 1.6.2", require: false
   gem "capistrano3-delayed-job", "~> 1.7.6"
   gem "capistrano3-puma", "~> 5.2.0"
-  gem "erb_lint", "~> 0.0.37", require: false
+  gem "erb_lint", "~> 0.3.1", require: false
   gem "mdl", "~> 0.11.0", require: false
   gem "pronto", "~> 0.11.0", require: false
-  gem "pronto-erb_lint", "~> 0.1.5", require: false
+  gem "pronto-erb_lint", "~> 0.1.6", require: false
   gem "pronto-eslint", "~> 0.11.0", require: false
   gem "pronto-rubocop", "~> 0.11.2", require: false
   gem "pronto-scss", "~> 0.11.0", require: false
